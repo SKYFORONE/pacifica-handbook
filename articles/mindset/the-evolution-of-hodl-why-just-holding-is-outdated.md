@@ -228,7 +228,7 @@ HODLing isn't just about surviving the bear market anymore. It's about building 
 
 * * *
 
-app[https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)
+app[https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
 
 Docs:[https://docs.pacifica.fi](https://docs.pacifica.fi/)
 

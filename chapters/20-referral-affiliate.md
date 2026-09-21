@@ -112,4 +112,4 @@ The affiliate path is more lucrative in dollar terms when fee volume is high; th
 | :--- | :---: | ---: |
 | [← Chapter 19: Points Program](19-points-program.md) | [**All 29 Chapters**](../README.md#table-of-contents) | [Chapter 21: Market Maker Program →](21-market-maker.md) |
 
-*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi).*
+*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR).*

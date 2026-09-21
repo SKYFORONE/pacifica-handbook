@@ -228,4 +228,4 @@ This glossary collects every term Pacifica's documentation uses, with concise de
 | :--- | :---: | ---: |
 | [← Chapter 26: MCP Server for AI Agents](26-mcp-server.md) | [**All 29 Chapters**](../README.md#table-of-contents) | [Chapter 28: Audits, Security & Risk Disclosure →](28-audits-security.md) |
 
-*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi).*
+*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR).*

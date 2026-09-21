@@ -194,4 +194,4 @@ You send a **Limit Buy at $3,500, IOC, 10 ETH**.
 | :--- | :---: | ---: |
 | [← Chapter 4: Contract & Market Specifications](04-contract-and-market-specs.md) | [**All 29 Chapters**](../README.md#table-of-contents) | [Chapter 6: Margin & Leverage →](06-margin-and-leverage.md) |
 
-*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi).*
+*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR).*

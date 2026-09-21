@@ -214,4 +214,4 @@ A few practical safety rules for agents:
 | :--- | :---: | ---: |
 | [← Chapter 25: Signing & Authentication](25-signing-auth.md) | [**All 29 Chapters**](../README.md#table-of-contents) | [Chapter 27: Glossary of Terms →](27-glossary.md) |
 
-*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi).*
+*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR).*

@@ -13,7 +13,7 @@ _\_The Detrended Price Oscillator (DPO) is an indicator that helps remove the lo
 
 ### How to add an indicator on Pacifica
 
-1. Open the [Pacifica](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)
+1. Open the [Pacifica](https://app.pacifica.fi?referral=SKYFOR)
 2. Click on the indicators tab
 3. search for the name of the indicator Detrended Price Oscillator
 
@@ -105,7 +105,7 @@ If the DPO drops to -1.5 and reverses upwards, it could be a good buying opportu
 
 📣 Ready to trade smarter?
 
-app [https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)
+app [https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
 
 Docs: [https://docs.pacifica.fi](https://docs.pacifica.fi/)
 

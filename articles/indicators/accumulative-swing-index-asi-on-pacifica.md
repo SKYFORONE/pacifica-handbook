@@ -13,7 +13,7 @@
 
 ### How to add an indicator to Pacifica
 
-1. Open the[Pacifica](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)
+1. Open the[Pacifica](https://app.pacifica.fi?referral=SKYFOR)
 2. Click on the indicators tab
 3. search for the name of the indicator Accumulative Swing Index
 
@@ -87,7 +87,7 @@ Accumulative Swing Index is a reliable tool for confirming trends and identifyin
 
 📣 Ready to trade smarter?
 
-app [https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)
+app [https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
 
 Docs: [https://docs.pacifica.fi](https://docs.pacifica.fi/)
 

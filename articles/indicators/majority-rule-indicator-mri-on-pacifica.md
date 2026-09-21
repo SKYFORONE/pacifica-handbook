@@ -13,7 +13,7 @@ _\_Majority Rule Indicator (MRI) is an indicator that helps to determine the dom
 
 ### How to add an indicator to Pacifica
 
-1. Open the[Pacifica](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)
+1. Open the[Pacifica](https://app.pacifica.fi?referral=SKYFOR)
 2. Click on the indicators tab
 3. search for the name of the indicator Majority Rule
 
@@ -71,7 +71,7 @@ Risk Management: Place a stop loss at the nearest support or resistance levels t
 
 📣 Ready to trade smarter?
 
-app [https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)
+app [https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
 
 Docs: [https://docs.pacifica.fi](https://docs.pacifica.fi/)
 

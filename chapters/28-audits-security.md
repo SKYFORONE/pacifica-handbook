@@ -182,4 +182,4 @@ You do not need to trust any single party. The design is **on-chain and verifiab
 | :--- | :---: | ---: |
 | [← Chapter 27: Glossary of Terms](27-glossary.md) | [**All 29 Chapters**](../README.md#table-of-contents) | [Chapter 29: Brand & Community →](29-brand-community.md) |
 
-*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi).*
+*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR).*

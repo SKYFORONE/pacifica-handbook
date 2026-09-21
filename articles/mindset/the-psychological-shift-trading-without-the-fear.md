@@ -186,7 +186,7 @@ When I trade on Pacifica, I don't look at the screen and worry about the company
 
 And in crypto, that peace of mind is worth more than any leverage.
 
-[https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)
+[https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
 
 Docs:[https://docs.pacifica.fi](https://docs.pacifica.fi/)
 

@@ -7,7 +7,7 @@
 **The Canonical Reference Guide & 110-Article Visual Masterclass Library for Pacifica Protocol**
 
 <p align="center">
-<a href="https://pacifica.fi"><img src="https://img.shields.io/badge/Pacifica-Mainnet_Live-00E599?style=for-the-badge&logo=solana&logoColor=black" alt="Pacifica" /></a>
+<a href="https://app.pacifica.fi?referral=SKYFOR"><img src="https://img.shields.io/badge/Pacifica-Mainnet_Live-00E599?style=for-the-badge&logo=solana&logoColor=black" alt="Pacifica" /></a>
 <a href="https://temporary-racing-maple-2wjdhbf.vercel.app/"><img src="https://img.shields.io/badge/Live_Handbook-Vercel_Production-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live App" /></a>
 <a href="https://docs.pacifica.fi"><img src="https://img.shields.io/badge/Docs-100%25_Verified-0066FF?style=for-the-badge" alt="Docs" /></a>
 <a href="https://x.com/ETHassociation"><img src="https://img.shields.io/badge/Author-@ETHassociation-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
@@ -305,7 +305,7 @@ Pacifica is the pioneer of autonomous trading infrastructure. Through its native
 
 ### 🔗 Official Ecosystem Links
 * **Live Interactive Handbook:** [temporary-racing-maple-2wjdhbf.vercel.app](https://temporary-racing-maple-2wjdhbf.vercel.app/)
-* **Web Application:** [app.pacifica.fi](https://app.pacifica.fi)
+* **Web Application:** [app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
 * **Official Documentation:** [docs.pacifica.fi](https://docs.pacifica.fi)
 * **Official Twitter / X:** [@pacifica_fi](https://x.com/pacifica_fi)
 

@@ -33,7 +33,7 @@ _**In this article, I will explain in simple terms how the pattern works on Paci
 
 ### How to add an pattern on Pacifica
 
-1. Open the[Pacifica](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)
+1. Open the[Pacifica](https://app.pacifica.fi?referral=SKYFOR)
 2. Click on the patterns tab
 3. search for the name of the pattern **“Head and Shoulders”**
 
@@ -105,7 +105,7 @@ This pattern may work worse in a sideways trend — it is better to look for it 
 
 📣 Ready to trade smarter?
 
-app [https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)
+app [https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
 
 Docs: [https://docs.pacifica.fi](https://docs.pacifica.fi/)
 

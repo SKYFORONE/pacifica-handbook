@@ -92,7 +92,7 @@ How to get in — step by step
 
 ![Image 4](https://pbs.twimg.com/media/HJqce9QW8AEKTEb.jpg?name=large)
 
-👉 Hop in through here, you'll support me while you're at it: [https://app.pacifica.fi/?referral=EBR5X99FP6R60G0](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)W
+👉 Hop in through here, you'll support me while you're at it: [https://app.pacifica.fi/?referral=EBR5X99FP6R60G0](https://app.pacifica.fi?referral=SKYFOR)W
 
 ### My strategy after an evening of tapping
 
@@ -116,13 +116,13 @@ If you were tapping randomly before this reread the multiplier-lock section and 
 
 Go tap around yourself, drop your runs, I wanna see what multipliers you all are hitting.
 
-[https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)
+[https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
 
 🐳 Keep swimming.
 
 ![Image 5](https://pbs.twimg.com/media/HJqfgkYWkAA3U3O.jpg?name=large)
 
-App: [https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W](https://t.co/0qvcDrLGkc)
+App: [https://app.pacifica.fi?referral=SKYFOR](https://t.co/0qvcDrLGkc)
 
 Docs: [https://docs.pacifica.fi](https://t.co/FC1i91NFBX)
 

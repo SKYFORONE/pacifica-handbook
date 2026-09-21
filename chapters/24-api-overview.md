@@ -293,4 +293,4 @@ A 403 from CloudFront is a common false alarm caused by GET requests with an emp
 | :--- | :---: | ---: |
 | [← Chapter 23: VIP, Educators & Bug Bounty](23-vip-educators-bug-bounty.md) | [**All 29 Chapters**](../README.md#table-of-contents) | [Chapter 25: Signing & Authentication →](25-signing-auth.md) |
 
-*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi).*
+*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR).*

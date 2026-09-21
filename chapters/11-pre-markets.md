@@ -118,4 +118,4 @@ The current set is in the [Market Specifications](https://docs.pacifica.fi/tradi
 | :--- | :---: | ---: |
 | [← Chapter 10: Spot Trading](10-spot-trading.md) | [**All 29 Chapters**](../README.md#table-of-contents) | [Chapter 12: Unified Margin & Spot Collateral →](12-unified-margin.md) |
 
-*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi).*
+*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR).*

@@ -118,7 +118,7 @@ Pacifica — это не просто очередная децентрализ�
 
 * **Живая интерактивная книга (Vercel):** [temporary-racing-maple-2wjdhbf.vercel.app](https://temporary-racing-maple-2wjdhbf.vercel.app/)
 
-* **Торговый терминал DEX:** [app.pacifica.fi](https://app.pacifica.fi)
+* **Торговый терминал DEX:** [app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
 
 * **Официальный сайт:** [pacifica.fi](https://pacifica.fi)
 

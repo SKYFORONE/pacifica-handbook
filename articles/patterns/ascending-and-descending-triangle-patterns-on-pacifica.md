@@ -129,7 +129,7 @@ A bearish engulf is an “exclamation mark” after a rise. It says:
 
 📣 Ready to trade smarter?
 
-app [https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)
+app [https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
 
 Docs: [https://docs.pacifica.fi](https://docs.pacifica.fi/)
 

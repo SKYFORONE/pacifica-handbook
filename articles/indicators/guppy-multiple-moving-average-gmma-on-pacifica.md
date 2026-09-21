@@ -13,7 +13,7 @@ _\_Guppy Multiple Moving Average (GMMA) is an indicator developed by Darryl Gupp
 
 ### How to add an indicator on Pacifica
 
-1. Open the[Pacifica](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)
+1. Open the[Pacifica](https://app.pacifica.fi?referral=SKYFOR)
 2. Click on the indicators tab
 3. search for the name of the indicator Guppy Multiple Moving Average
 
@@ -93,7 +93,7 @@ Let’s say you’re trading BTC, and the short EMAs diverge sharply upwards, wh
 
 📣 Ready to trade smarter?
 
-app [https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)
+app [https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
 
 Docs: [https://docs.pacifica.fi](https://docs.pacifica.fi/)
 

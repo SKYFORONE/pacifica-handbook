@@ -21,7 +21,7 @@ _\_%B shows how close the price is to the upper or lower boundary of these bands
 
 ### How to add an indicator on Pacifica
 
-1. Open the[Pacifica](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)
+1. Open the[Pacifica](https://app.pacifica.fi?referral=SKYFOR)
 2. Click on the indicators tab
 3. search for the name of the indicator _\_Bollinger Bands %B\__
 
@@ -113,7 +113,7 @@ Bollinger Bands %B is a useful tool for understanding where the price is within 
 
 📣 Ready to trade smarter?
 
-app [https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)
+app [https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
 
 Docs: [https://docs.pacifica.fi](https://docs.pacifica.fi/)
 

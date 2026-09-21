@@ -131,4 +131,4 @@ The on-ramp is the application. Reach out at `ops@pacifica.fi` or on Discord.
 | :--- | :---: | ---: |
 | [← Chapter 20: Referral & Affiliate Program](20-referral-affiliate.md) | [**All 29 Chapters**](../README.md#table-of-contents) | [Chapter 22: Builder Program →](22-builder.md) |
 
-*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi).*
+*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR).*

@@ -176,4 +176,4 @@ If BTC drops 6% to $65,800 (below the rough liquidation line), the engine will m
 | :--- | :---: | ---: |
 | [← Chapter 5: Order Types & Time-in-Force](05-order-types.md) | [**All 29 Chapters**](../README.md#table-of-contents) | [Chapter 7: Oracle Price & Mark Price →](07-oracle-mark-price.md) |
 
-*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi).*
+*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR).*

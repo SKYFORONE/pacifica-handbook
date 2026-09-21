@@ -129,4 +129,4 @@ Your position appears in the portfolio panel. Unrealized PnL updates in real tim
 | :--- | :---: | ---: |
 | [← Chapter 1: What is Pacifica?](01-what-is-pacifica.md) | [**All 29 Chapters**](../README.md#table-of-contents) | [Chapter 3: Fund Security Architecture →](03-fund-security.md) |
 
-*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi).*
+*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR).*

@@ -163,4 +163,4 @@ You can paste any into a Solana explorer to inspect the on-chain state.
 | :--- | :---: | ---: |
 | [← Chapter 14: Liquidations](14-liquidations.md) | [**All 29 Chapters**](../README.md#table-of-contents) | [Chapter 16: Vaults — User-Deployed Trading Pools →](16-vaults.md) |
 
-*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi).*
+*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR).*

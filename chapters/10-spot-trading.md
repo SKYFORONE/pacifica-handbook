@@ -133,4 +133,4 @@ A common strategy is to **buy spot, short perp** on the same asset to collect fu
 | :--- | :---: | ---: |
 | [← Chapter 9: Trading Fees](09-trading-fees.md) | [**All 29 Chapters**](../README.md#table-of-contents) | [Chapter 11: Pre-Markets →](11-pre-markets.md) |
 
-*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi).*
+*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR).*

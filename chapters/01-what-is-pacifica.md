@@ -135,4 +135,4 @@ The platform is named after the Pacific Ocean — a deliberate nod to the geogra
 | :--- | :---: | ---: |
 | *(First chapter)* | [**All 29 Chapters**](../README.md#table-of-contents) | [Chapter 2: Getting Started →](02-getting-started.md) |
 
-*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi).*
+*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR).*

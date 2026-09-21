@@ -182,4 +182,4 @@ In both modes, the system begins liquidating spot assets on the account's behalf
 | :--- | :---: | ---: |
 | [← Chapter 11: Pre-Markets](11-pre-markets.md) | [**All 29 Chapters**](../README.md#table-of-contents) | [Chapter 13: Money Market →](13-money-market.md) |
 
-*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi).*
+*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR).*

@@ -35,7 +35,7 @@ _**In this article, I will explain in simple terms how the pattern works on Paci
 
 ### How to start on Pacifica
 
-1. Open the[Pacifica](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)
+1. Open the[Pacifica](https://app.pacifica.fi?referral=SKYFOR)
 2. analyze the market
 
 ![Image 2](https://pbs.twimg.com/media/HLpOWbyXEAAoC_9.png?name=large)
@@ -130,7 +130,7 @@ The bearish rhombus is a great tool in a trader’s arsenal to find the end of a
 
 📣 Ready to trade smarter?
 
-app [https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)
+app [https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
 
 Docs: [https://docs.pacifica.fi](https://docs.pacifica.fi/)
 

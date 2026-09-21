@@ -29,7 +29,7 @@ Based on the title and metadata, this X post from the June 27, 2026 covers:
 
 **Follow on X:** [@ETHassociation](https://x.com/ETHassociation)
 
-**Try the platform yourself:** [app.pacifica.fi](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)
+**Try the platform yourself:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
 
 ![Cover](https://pbs.twimg.com/media/HL0h6dmWcAArDFe.jpg?name=large)
 

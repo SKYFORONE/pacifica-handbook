@@ -128,4 +128,4 @@ The taker fee is the bulk of any high-volume trader's cost. For institutions, th
 | :--- | :---: | ---: |
 | [← Chapter 8: Funding Rates](08-funding-rates.md) | [**All 29 Chapters**](../README.md#table-of-contents) | [Chapter 10: Spot Trading →](10-spot-trading.md) |
 
-*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi).*
+*Official Documentation verified against [docs.pacifica.fi](https://docs.pacifica.fi). Trade perpetuals with zero VC dilution at [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR).*

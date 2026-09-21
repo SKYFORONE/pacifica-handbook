@@ -169,7 +169,7 @@ The only question left is: are you going to watch it happen from the sidelines, 
 
 _\_If this article helped clarify the messy world of crypto exchanges for you, please drop a clap 👏 and follow for more deep dives into the mechanics of Web3. Let me know in the comments: have you tried a Hybrid DEX yet? What was your experience\__?
 
-App: [https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W](https://app.pacifica.fi/?referral=EBR5X99FP6R60G0W)
+App: [https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
 
 Docs: [https://docs.pacifica.fi](https://docs.pacifica.fi/)
 
