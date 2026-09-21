@@ -99,7 +99,11 @@ Pacifica — это не просто очередная децентрализ�
 
 ## 💎 Связи и официальные ресурсы
 
-* **Автор книги:** Максим — SKYFOR.PF (`@ETHassociation`)
+* **Автор книги:** Максим — SKYFOR.PF (`@ETHassociation`) · TikTok: `@hits80s` (11.1K+ охвата)
+
+* **Признание руководства команды:** **Greg** (`@gregfrh`) — официальный Shoutout на Townhall Pacifica («Your work is fantastic!»)
+
+* **Публичное признание фаундеров:** Сооснователь Constance Waing (`@ConstanceWaing`) 💙
 
 * **Живая веб-книга (Vercel):** [temporary-racing-maple-2wjdhbf.vercel.app](https://temporary-racing-maple-2wjdhbf.vercel.app/)
 

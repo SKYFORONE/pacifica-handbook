@@ -296,8 +296,9 @@ Pacifica is the pioneer of autonomous trading infrastructure. Through its native
 
 * **Web Application:** [app.pacifica.fi](https://app.pacifica.fi)
 * **Official Documentation:** [docs.pacifica.fi](https://docs.pacifica.fi)
-* **Twitter / X:** [@pacifica_fi](https://x.com/pacifica_fi)
-* **Author & Community Ambassador:** **SKYFOR.PF** ([@ETHassociation](https://x.com/ETHassociation))
+* **Author & Community Ambassador:** **SKYFOR.PF** ([@ETHassociation](https://x.com/ETHassociation)) · TikTok: [@hits80s](https://www.tiktok.com/@hits80s) (11K+ organic reach)
+* **Core Leadership Endorsement:** **Greg** ([@gregfrh](https://x.com/gregfrh)) — *"This look fantastic! Im very impressed sir, ur work is fantastic!"*
+* **Official Townhall Recognition:** Pacifica Ecosystem Townhall shoutout (September 2026)
 * **Public Recognition:** Co-founder Constance Waing ([@ConstanceWaing](https://x.com/ConstanceWaing)) 💙
 
 ---
