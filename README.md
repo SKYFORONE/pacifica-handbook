@@ -300,7 +300,7 @@ Pacifica is the pioneer of autonomous trading infrastructure. Through its native
 * **Pacifica Intern 🌊** ([@pacifica_intern](https://x.com/pacifica_intern)) — Pacifica Team
 
 ### 📚 Author & Educational Architect
-* **SKYFOR.PF 🌊** ([@ETHassociation](https://x.com/ETHassociation)) — Pacifica Community Ambassador & Creator of the 110 Masterclasses
+* **SKYFOR.PF 🌊** ([@ETHassociation](https://x.com/ETHassociation)) — Pacifica Community & Creator of the 110 Masterclasses + 638-3D Art Design and 275 total articles 
 * **TikTok Ecosystem Channel:** [@hits80s](https://www.tiktok.com/@hits80s) (13K+ organic reach)
 
 ### 🔗 Official Ecosystem Links
