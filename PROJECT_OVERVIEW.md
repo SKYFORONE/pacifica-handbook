@@ -125,7 +125,7 @@ The Pacifica Handbook
 
 | Канал | URL |
 |---|---|
-| **Live URL** | `https://temporary-prompt-frost-7kaxs33.vercel.app` |
+| **Live URL** | `https://temporary-racing-maple-2wjdhbf.vercel.app/` |
 | **Claim link** | `vercel.com/claim-deployment?code=ab5f971a-...` |
 | **Скачать архив** | `/downloads/pacifica-handbook.zip` (32 MB) |
 | **Vercel-ready** | `/downloads/pacifica-handbook-vercel.zip` |

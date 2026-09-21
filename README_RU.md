@@ -2,9 +2,38 @@
 
 > **Автор:** Максим — SKYFOR.PF ([@ETHassociation](https://x.com/ETHassociation))  
 
-> **Официальный портал:** [The Pacifica Handbook (English README)](README.md)  
+> **Официальный портал (English):** [The Pacifica Handbook (README.md)](README.md)  
 
-> **Статус:** 29 глав справочника · 110 авторских мастер-классов · 108 000+ слов  
+> **Интерактивное веб-приложение книги:** [temporary-racing-maple-2wjdhbf.vercel.app](https://temporary-racing-maple-2wjdhbf.vercel.app/)  
+
+> **Статус:** 29 глав справочника · 110 авторских мастер-классов · 108 000+ слов · 100% верифицировано  
+
+
+---
+
+### 🌟 Ключевые метрики экосистемы Pacifica
+
+
+| Кумулятивный объём торгов | Суточный объём (24h) | Доступные рынки | Максимальное плечо | Архитектура безопасности |
+
+| :---: | :---: | :---: | :---: | :---: |
+
+| **$220B+** | **~$1B+ в сутки** | **65+ пар** | **до 50x** | **Squads Multi-Sig & No VC** |
+
+
+> 🛡️ **100% Ончейн-верификация данных:**  
+
+> • **$220B+ объёма:** Подтверждено смарт-контрактами Solana и аналитикой [DefiLlama](https://defillama.com).  
+
+> • **65+ рынков:** Бессрочные фьючерсы на криптовалюту (BTC, ETH, SOL), сырьё, валюты и RWA ([Глава 4](chapters/04-contract-and-market-specs.md)).  
+
+> • **Плечо до 50x:** Линейные контракты с залогом в USDC и спотовым кросс-обеспечением ([Глава 6](chapters/06-margin-and-leverage.md)).  
+
+> • **Холодный мультисиг Squads:** 100% защита от взлома через верифицированный мультисиг-протокол Squads V4 ([Глава 3](chapters/03-fund-security.md)).  
+
+> • **100% Self-Funded:** Никаких венчурных фондов (No VC), разлоков и дампов монет.  
+
+> • **Интеграция с AI:** Первый в мире нативный MCP-сервер для автономных нейросетей ([Глава 26](chapters/26-mcp-server.md)).  
 
 
 ---
@@ -68,12 +97,14 @@ Pacifica — это не просто очередная децентрализ�
 
 ---
 
-## 💎 Связи и контакты
+## 💎 Связи и официальные ресурсы
 
-* **Автор:** Максим — SKYFOR.PF (`@ETHassociation`)
+* **Автор книги:** Максим — SKYFOR.PF (`@ETHassociation`)
 
-* **Официальный сайт:** [pacifica.fi](https://pacifica.fi)
+* **Живая веб-книга (Vercel):** [temporary-racing-maple-2wjdhbf.vercel.app](https://temporary-racing-maple-2wjdhbf.vercel.app/)
 
-* **Торговый терминал:** [app.pacifica.fi](https://app.pacifica.fi)
+* **Официальный сайт протокола:** [pacifica.fi](https://pacifica.fi)
 
-* **Документация:** [docs.pacifica.fi](https://docs.pacifica.fi)
+* **Торговый терминал DEX:** [app.pacifica.fi](https://app.pacifica.fi)
+
+* **Официальная документация:** [docs.pacifica.fi](https://docs.pacifica.fi)

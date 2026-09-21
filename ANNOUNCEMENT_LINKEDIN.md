@@ -34,6 +34,6 @@
 
 Все статьи ведут на оригинал в X (атрибуция + engagement), кнопки "Try on Pacifica" идут с referral-кодом. Каждая страница — рабочая единица growth-воронки: от SEO-индексации до conversion.
 
-Live: https://temporary-prompt-frost-7kaxs33.vercel.app
+Live: https://temporary-racing-maple-2wjdhbf.vercel.app/
 
 #Pacifica #DeFi #PerpDEX #Solana #Education #OpenSource #Web3

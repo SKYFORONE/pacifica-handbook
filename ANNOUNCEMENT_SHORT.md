@@ -70,6 +70,6 @@
 
 ## Деплой
 
-- **Live:** `temporary-prompt-frost-7kaxs33.vercel.app`
+- **Live:** `https://temporary-racing-maple-2wjdhbf.vercel.app/`
 - **Self-host zip:** в `/downloads/`
 - **Custom domain:** готов к привязке (например, `handbook.pacifica.xyz`)

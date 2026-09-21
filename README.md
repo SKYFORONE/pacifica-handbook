@@ -8,6 +8,7 @@
 
 <p align="center">
 <a href="https://pacifica.fi"><img src="https://img.shields.io/badge/Pacifica-Mainnet_Live-00E599?style=for-the-badge&logo=solana&logoColor=black" alt="Pacifica" /></a>
+<a href="https://temporary-racing-maple-2wjdhbf.vercel.app/"><img src="https://img.shields.io/badge/Live_Handbook-Vercel_Production-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live App" /></a>
 <a href="https://docs.pacifica.fi"><img src="https://img.shields.io/badge/Docs-100%25_Verified-0066FF?style=for-the-badge" alt="Docs" /></a>
 <a href="https://x.com/ETHassociation"><img src="https://img.shields.io/badge/Author-@ETHassociation-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
 <a href="README_RU.md"><img src="https://img.shields.io/badge/Language-Русский_Гайд-FFCC00?style=for-the-badge" alt="RU" /></a>
@@ -17,11 +18,21 @@
 
 ---
 
-### 🌟 Key Ecosystem Metrics
+### 🌟 Key Ecosystem Metrics & On-Chain Verification
 
-| Cumulative Perp Volume | Daily Trading Volume | Perpetual Markets | Leverage Limit | Backing Architecture |
+| Cumulative Perp Volume | Daily Trading Volume | Perpetual Markets | Max Leverage | Security Architecture |
 | :---: | :---: | :---: | :---: | :---: |
-| **$220B+** | **~$1,000,000,000** | **65+ Pairs** | **Up to 50x** | **Squads Multi-Sig & No VC** |
+| **$220B+** | **~$1B+ / Day** | **65+ Pairs** | **Up to 50x** | **Squads Multi-Sig & No VC** |
+
+> 🛡️ **100% On-Chain & Canonical Verification Matrix:**  
+> • **$220B+ Cumulative Volume:** Audited Solana Mainnet volume verified on [DefiLlama](https://defillama.com) & Pacifica Protocol Engine.  
+> • **~$1B+ 24h Trading Volume:** Rolling daily volume across active perpetual orderbooks.  
+> • **65+ Perpetual Pairs:** Crypto Majors (BTC, ETH, SOL), Altcoins, RWAs, Pre-Markets, and FX ([Chapter 4: Contract Specs](chapters/04-contract-and-market-specs.md)).  
+> • **Up to 50x Leverage:** Linear USDC-margined contracts with dynamic haircut formulas ([Chapter 6: Margin & Leverage](chapters/06-margin-and-leverage.md)).  
+> • **Squads Protocol Multi-Sig:** Cold vault secured by Solana's leading formally verified multisig program ([Chapter 3: Fund Security](chapters/03-fund-security.md)).  
+> • **100% Self-Funded (Zero VC):** Zero venture capital allocations; protocol value returns directly to traders and vault depositors.  
+> • **Native MCP Server:** Industry-first Model Context Protocol integration for autonomous AI trading ([Chapter 26: MCP Server](chapters/26-mcp-server.md)).  
+> • **Interactive Web Application:** Live production handbook deployed at [temporary-racing-maple-2wjdhbf.vercel.app](https://temporary-racing-maple-2wjdhbf.vercel.app/).
 
 ---
 
