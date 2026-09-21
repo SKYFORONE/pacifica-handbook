@@ -42,14 +42,14 @@ Six months of relentless daily research, testing, and writing went into the proj
 
 When I first discovered **Pacifica** on Solana, what struck me was not just the sub-second speed or the unified spot-margin engine. It was something extraordinarily rare in the modern crypto landscape: **they are 100% self-funded**. No predatory venture capital funds dumping locked tokens into user orderbooks. Every single dollar of value, fee revenue, and protocol growth accrues directly to active traders, vault depositors, and community participants.
 
-Yet, cutting-edge financial engineering brings technical complexity. Many traders who opened the platform were bewildered by cross-margin mechanics, three-tier liquidations, hourly funding calculations, and user-deployed trading lakes. The official documentation provided pristine formal specifications, but traders needed real-world visual demonstrations — how indicators look on the live chart, how to size positions without risking ruin, and how to harness programmatic tools like the **Pacifica MCP Server** for autonomous AI trading.
+Yet, cutting-edge financial engineering brings technical complexity. Many traders who opened the platform were bewildered by cross-margin mechanics, three-tier liquidations, hourly funding calculations, and user-deployed trading lakes. The official documentation provided pristine formal specifications, but traders needed real-world visual demonstrations, how indicators look on the live chart, how to size positions without risking ruin, and how to harness programmatic tools like the **Pacifica MCP Server** for autonomous AI trading.
 
 I made a personal commitment: to document every single corner of Pacifica with surgical precision and genuine care for fellow traders. The result is this dual-layer work:
 
-* **Part I: The 29-Chapter Canonical Reference Handbook** — reproducing every limit, formula, and contract spec from `docs.pacifica.fi`, accompanied by custom mint-green architectural diagrams.
-* **Part II: The 110 Community Masterclasses** — authored by me as **SKYFOR.PF** ([@ETHassociation](https://x.com/ETHassociation)), containing over 1,000 live annotated screenshots across indicators, chart patterns, risk models, trading psychology, and product mechanics.
+* **Part I: The 29-Chapter Canonical Reference Handbook**  reproducing every limit, formula, and contract spec from `docs.pacifica.fi`, accompanied by custom mint-green architectural diagrams.
+* **Part II: The 110 Community Masterclasses**  authored by me as **SKYFOR.PF** ([@ETHassociation](https://x.com/ETHassociation)), containing over 1,000 live annotated screenshots across indicators, chart patterns, risk models, trading psychology, and product mechanics.
 
-**Total volume:** Over **108,000 words** of battle-tested, verified knowledge. Not a single hallucinated figure. Built to empower traders and developers across the Solana universe.
+**Total volume:** Over **108,000 words** of battle tested, verified knowledge. Not a single hallucinated figure. Built to empower traders and developers across the Solana universe.
 
 ---
 
