@@ -97,18 +97,31 @@ Pacifica — это не просто очередная децентрализ�
 
 ---
 
-## 💎 Связи и официальные ресурсы
+## 💎 Команда Pacifica и официальные ресурсы
 
-* **Автор книги:** Максим — SKYFOR.PF (`@ETHassociation`) · TikTok: `@hits80s` (11.1K+ охвата)
 
-* **Признание руководства команды:** **Greg** (`@gregfrh`) — официальный Shoutout на Townhall Pacifica («Your work is fantastic!»)
+### 🌊 Руководство протокола:
 
-* **Публичное признание фаундеров:** Сооснователь Constance Waing (`@ConstanceWaing`) 💙
+* **Greg 🌊** ([@_guynemer](https://x.com/_guynemer)) — Core Team / Tech & Community Lead
 
-* **Живая веб-книга (Vercel):** [temporary-racing-maple-2wjdhbf.vercel.app](https://temporary-racing-maple-2wjdhbf.vercel.app/)
+* **Constance W 🌊** ([@ConstanceWaing](https://x.com/ConstanceWaing)) — Co-Founder 💙
 
-* **Официальный сайт протокола:** [pacifica.fi](https://pacifica.fi)
+* **Pacifica Intern 🌊** ([@pacifica_intern](https://x.com/pacifica_intern)) — Pacifica Team
+
+
+### 📚 Автор книги и образовательной империи:
+
+* **Максим — SKYFOR.PF 🌊** ([@ETHassociation](https://x.com/ETHassociation)) — Амбассадор Pacifica, 3D-художник и автор 110 мастер-классов
+
+
+### 🔗 Официальные ресурсы:
+
+* **Живая интерактивная книга (Vercel):** [temporary-racing-maple-2wjdhbf.vercel.app](https://temporary-racing-maple-2wjdhbf.vercel.app/)
 
 * **Торговый терминал DEX:** [app.pacifica.fi](https://app.pacifica.fi)
 
+* **Официальный сайт:** [pacifica.fi](https://pacifica.fi)
+
 * **Официальная документация:** [docs.pacifica.fi](https://docs.pacifica.fi)
+
+* **Официальный X / Twitter:** [@pacifica_fi](https://x.com/pacifica_fi)
