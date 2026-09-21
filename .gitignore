@@ -1,0 +1,13 @@
+# Local temporary source dump
+source/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python / IDE cache
+__pycache__/
+*.pyc
+.vscode/
+.idea/
