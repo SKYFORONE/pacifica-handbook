@@ -1,43 +1,60 @@
 # How to Actually Use Margin and Leverage on Pacifica Without Getting Liquidated
 
 > 🌊 **Author:** SKYFOR.PF ([@ETHassociation](https://x.com/ETHassociation))  
-> 📅 **Published on X:** unknown  
+> 📅 **Published on X:** 2026-07  
 > 🔗 **Original Thread on X:** [Read on X / Twitter](https://x.com/ETHassociation/status/2077038128624181582)  
 > 📚 **Category:** [Platform Mechanics & Deep Tech](../../README.md#features) · [Handbook Home](../../README.md)
 
 ---
 
-> 📱 **This article is an X long-form post by @ETHassociation (SKYFOR.PF).**
+![How to Actually Use Margin and Leverage on Pacifica Without Getting Liquidated](https://pbs.twimg.com/media/HNMeFwSWMAAI7yH.jpg?name=large)
 
-> The original post on X includes **5 annotated screenshots** from the live Pacifica app — diagrams, setup steps, and worked examples.
+> Margin trading is about risk engineering, not reckless gambling. In this masterclass, we examine the inner workings of Pacifica's cross-margin engine and outline the exact protocols to keep your account 100% liquidation-proof.
 
-> 👉 **[View the full article on X →](https://x.com/ETHassociation/status/2077038128624181582)**
+### Cross Margin vs. Isolated Margin on Pacifica
 
-> _Can't see the button? Open this URL in your browser: `https://x.com/ETHassociation/status/2077038128624181582`_
+* **Cross Margin (Unified):** All your deposited assets (USDC, SOL, BTC) act as a single pool of collateral. Gains on one position cushion losses on another. Maximizes capital efficiency, but a runaway trade can threaten the entire account if left unmonitored.
+* **Isolated Margin:** Margin is strictly quarantined to an individual trade. If the trade hits liquidation, only the assigned collateral is forfeited.
 
-## What this article covers
+---
 
-Based on the title and metadata, this X post from the Recent covers:
+### The Pacifica Liquidation Equation
 
-**Topic:** How to Actually Use Margin and Leverage on Pacifica Without Getting Liquidated
+A liquidation event is triggered when your **Account Equity** drops below the aggregate **Maintenance Margin Requirement (MMR)**:
 
-**Category:** General
+$$\text{Account Equity} < \sum (\text{Position Notional}_i \times \text{MMR}_i)$$
 
-> 💡 **Tip:** The full article on X includes the original screenshots, step-by-step instructions, and any examples the author shared. The catalog page on this site has all 110 articles from the same author with direct links to each.
+When this threshold is breached, Pacifica's three-tier liquidation engine engages:
+1. **Tier 1 (Order Cancellation):** All open resting limit orders are instantly cancelled to release reserved collateral.
+2. **Tier 2 (Liquidation Engine Absorption):** Backstop liquidity providers absorb position risk in orderly tranches to prevent market slippage.
+3. **Tier 3 (Full Closeout):** Unhedged exposure is liquidated into the public orderbook.
 
-**Author:** SKYFOR.PF (Pacific trading community educator)
+---
 
-**Follow on X:** [@ETHassociation](https://x.com/ETHassociation)
+### The 4 Commandments to Never Get Liquidated
 
-**Try the platform yourself:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
+1. **Always Set a Stop-Loss at Entry:** Never enter a trade without an active stop order registered on the server.
+2. **Maintain a 200%+ Margin Health Ratio:** Never allow your maintenance margin cushion to compress below $50\%$.
+3. **Account for Spot Haircuts:** Remember that non-USDC collateral (like SOL or LSTs) has a risk haircut (e.g. 80-85% collateral value). In a market crash, your collateral value drops while your debt remains fixed!
+4. **De-leverage Ahead of Weekend Illiquidity:** Spreads widen on weekends; reduce leverage before Friday close.
 
-![Cover](https://pbs.twimg.com/media/HNMeFwSWMAAI7yH.jpg?name=large)
+---
+
+📣 Ready to trade smarter?
+
+app [https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
+
+Docs: [https://docs.pacifica.fi](https://docs.pacifica.fi/)
+
+Twitter: [@pacifica_fi](https://x.com/pacifica_fi)
+
+Discord [https://discord.gg/txamDgtNd](https://discord.gg/txamDgtNd)
 
 ---
 
 ### Community Library Navigation
 * **Back to Category:** [Platform Mechanics & Deep Tech](README.md)
 * **Master Handbook:** [The Pacifica Handbook](../../README.md)
-* **Live App:** [app.pacifica.fi](https://app.pacifica.fi)
+* **Live App:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
 
 *Original educational tutorial written by SKYFOR.PF (@ETHassociation) as part of the 6-month Pacifica masterclass series.*

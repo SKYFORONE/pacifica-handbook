@@ -1,43 +1,59 @@
 # Decoding the Dashboard: A Complete Visual Guide to the Pacifica Trading Interface
 
 > 🌊 **Author:** SKYFOR.PF ([@ETHassociation](https://x.com/ETHassociation))  
-> 📅 **Published on X:** unknown  
+> 📅 **Published on X:** 2026-08  
 > 🔗 **Original Thread on X:** [Read on X / Twitter](https://x.com/ETHassociation/status/2079864668231717018)  
 > 📚 **Category:** [Platform Mechanics & Deep Tech](../../README.md#features) · [Handbook Home](../../README.md)
 
 ---
 
-> 📱 **This article is an X long-form post by @ETHassociation (SKYFOR.PF).**
+![Decoding the Dashboard: A Complete Visual Guide to the Pacifica Trading Interface](https://pbs.twimg.com/media/HN0oSXfXQAAIImt.jpg?name=large)
 
-> The original post on X includes **6 annotated screenshots** from the live Pacifica app — diagrams, setup steps, and worked examples.
+> When you first launch Pacifica, the terminal presents a dense array of institutional data. In this visual guide, we decode every single module on the screen so you can navigate with instinctive speed and confidence.
 
-> 👉 **[View the full article on X →](https://x.com/ETHassociation/status/2079864668231717018)**
+### The 5 Key Zones of the Pacifica Interface
 
-> _Can't see the button? Open this URL in your browser: `https://x.com/ETHassociation/status/2079864668231717018`_
+1. **The Navigation Header (Top):**
+   * Market Ticker (Symbol, 24h Change, 24h Volume, Mark Price, Index Price).
+   * **Hourly Funding Countdown:** Shows the exact time remaining until the next funding payment and the current rate.
+   * Account Equity and Margin Health Status.
+2. **The Main Chart Canvas (Center-Left):**
+   * Institutional TradingView integration featuring candle patterns, technical drawing tools, indicators, and multi-timeframe toggles (1m to 1D).
+3. **The Order Entry Terminal (Far Right):**
+   * Order type selector: Limit, Market, Stop-Limit, Stop-Market.
+   * Leverage slider (1x to 50x) and margin mode toggle (Cross / Isolated).
+   * Notional input with percentage shortcuts ($25\%$, $50\%$, $100\%$).
+   * Advanced toggles: **Post-Only**, **Reduce-Only**, and **TP/SL**.
+4. **The Orderbook & Recent Trades (Center-Right):**
+   * Live bid/ask depth walls and millisecond-level trade tape execution feed.
+5. **The Active Positions & Orders Panel (Bottom):**
+   * Tabbed interface showing active **Positions**, **Open Orders**, **Order History**, **Realized PnL**, and **Funding Payments**.
 
-## What this article covers
+---
 
-Based on the title and metadata, this X post from the Recent covers:
+### Key Metric to Watch: Margin Health Gauge
+Located prominently in your account summary:
+* **Green (>150%):** Healthy margin cushion.
+* **Yellow (110% - 149%):** Warning zone; consider reducing size or depositing additional collateral.
+* **Red (<105%):** Imminent danger of liquidation!
 
-**Topic:** Decoding the Dashboard: A Complete Visual Guide to the Pacifica Trading Interface
+---
 
-**Category:** General
+📣 Ready to trade smarter?
 
-> 💡 **Tip:** The full article on X includes the original screenshots, step-by-step instructions, and any examples the author shared. The catalog page on this site has all 110 articles from the same author with direct links to each.
+app [https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
 
-**Author:** SKYFOR.PF (Pacific trading community educator)
+Docs: [https://docs.pacifica.fi](https://docs.pacifica.fi/)
 
-**Follow on X:** [@ETHassociation](https://x.com/ETHassociation)
+Twitter: [@pacifica_fi](https://x.com/pacifica_fi)
 
-**Try the platform yourself:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
-
-![Cover](https://pbs.twimg.com/media/HN0oSXfXQAAIImt.jpg?name=large)
+Discord [https://discord.gg/txamDgtNd](https://discord.gg/txamDgtNd)
 
 ---
 
 ### Community Library Navigation
 * **Back to Category:** [Platform Mechanics & Deep Tech](README.md)
 * **Master Handbook:** [The Pacifica Handbook](../../README.md)
-* **Live App:** [app.pacifica.fi](https://app.pacifica.fi)
+* **Live App:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
 
 *Original educational tutorial written by SKYFOR.PF (@ETHassociation) as part of the 6-month Pacifica masterclass series.*

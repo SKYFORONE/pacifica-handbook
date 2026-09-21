@@ -1,43 +1,62 @@
 # Hidden Signal: How to Read and Profit from Funding Rates on Pacifica
 
 > 🌊 **Author:** SKYFOR.PF ([@ETHassociation](https://x.com/ETHassociation))  
-> 📅 **Published on X:** unknown  
+> 📅 **Published on X:** 2026-07  
 > 🔗 **Original Thread on X:** [Read on X / Twitter](https://x.com/ETHassociation/status/2078066603128754601)  
 > 📚 **Category:** [Platform Mechanics & Deep Tech](../../README.md#features) · [Handbook Home](../../README.md)
 
 ---
 
-> 📱 **This article is an X long-form post by @ETHassociation (SKYFOR.PF).**
+![Hidden Signal: How to Read and Profit from Funding Rates on Pacifica](https://pbs.twimg.com/media/HNbFbjiWsAEGHGN.jpg?name=large)
 
-> The original post on X includes **4 annotated screenshots** from the live Pacifica app — diagrams, setup steps, and worked examples.
+> Funding rates are the heartbeat of the perpetual futures market. Beyond keeping perpetual contract prices anchored to spot indices, funding rates provide an extraordinarily accurate window into institutional positioning and market sentiment.
 
-> 👉 **[View the full article on X →](https://x.com/ETHassociation/status/2078066603128754601)**
+### The Mechanics of Hourly Funding on Pacifica
 
-> _Can't see the button? Open this URL in your browser: `https://x.com/ETHassociation/status/2078066603128754601`_
+Because perpetual contracts have no expiration date, funding payments ensure price convergence with the spot index:
+* **Positive Funding:** Perpetual price > Spot Index. Longs pay shorts. (Market is bullishly leveraged).
+* **Negative Funding:** Perpetual price < Spot Index. Shorts pay longs. (Market is bearishly leveraged).
 
-## What this article covers
+Pacifica calculates funding **hourly**, applying a dynamic clamp ($\pm 0.05\%$) to filter micro-noise while preventing predatory fee spikes.
 
-Based on the title and metadata, this X post from the Recent covers:
+---
 
-**Topic:** Hidden Signal: How to Read and Profit from Funding Rates on Pacifica
+### The 3 Funding Signals Every Trader Must Master
 
-**Category:** General
+#### Signal 1: The Extreme Crowded Long (Blow-Off Top)
+* Hourly funding skyrockets past $+0.08\%$ (annualized $>70\%$ APR).
+* Price momentum begins to stall while funding continues to climb.
+* **Interpretation:** Retail is aggressively paying massive rent to stay long. A long squeeze flush is imminent. Prepare to take profits or look for short breakdown setups.
 
-> 💡 **Tip:** The full article on X includes the original screenshots, step-by-step instructions, and any examples the author shared. The catalog page on this site has all 110 articles from the same author with direct links to each.
+#### Signal 2: The Negative Funding Short Squeeze
+* Asset price prints higher lows, but funding plunges deeply into negative territory (e.g. $-0.05\%$ to $-0.10\%$).
+* **Interpretation:** Bears are aggressively shorting into support. As price ticks upward, shorts are forced to buy back positions, triggering explosive upside cascades.
 
-**Author:** SKYFOR.PF (Pacific trading community educator)
+#### Signal 3: Funding Rate Arbitrage (Cash & Carry)
+* Collect massive APR without market direction by longing spot and shorting the high-funding perp.
 
-**Follow on X:** [@ETHassociation](https://x.com/ETHassociation)
+---
 
-**Try the platform yourself:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
+### Golden Rule of Funding
+Never blindly pay high funding on large positions unless the momentum velocity significantly outpaces the hourly fee drag!
 
-![Cover](https://pbs.twimg.com/media/HNbFbjiWsAEGHGN.jpg?name=large)
+---
+
+📣 Ready to trade smarter?
+
+app [https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
+
+Docs: [https://docs.pacifica.fi](https://docs.pacifica.fi/)
+
+Twitter: [@pacifica_fi](https://x.com/pacifica_fi)
+
+Discord [https://discord.gg/txamDgtNd](https://discord.gg/txamDgtNd)
 
 ---
 
 ### Community Library Navigation
 * **Back to Category:** [Platform Mechanics & Deep Tech](README.md)
 * **Master Handbook:** [The Pacifica Handbook](../../README.md)
-* **Live App:** [app.pacifica.fi](https://app.pacifica.fi)
+* **Live App:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
 
 *Original educational tutorial written by SKYFOR.PF (@ETHassociation) as part of the 6-month Pacifica masterclass series.*

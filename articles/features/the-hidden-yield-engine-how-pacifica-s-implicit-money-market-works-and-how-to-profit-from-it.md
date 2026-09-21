@@ -1,43 +1,59 @@
 # The Hidden Yield Engine: How Pacifica’s Implicit Money Market Works (And How to Profit From It)
 
 > 🌊 **Author:** SKYFOR.PF ([@ETHassociation](https://x.com/ETHassociation))  
-> 📅 **Published on X:** unknown  
+> 📅 **Published on X:** 2026-07  
 > 🔗 **Original Thread on X:** [Read on X / Twitter](https://x.com/ETHassociation/status/2077045901684625633)  
 > 📚 **Category:** [Platform Mechanics & Deep Tech](../../README.md#features) · [Handbook Home](../../README.md)
 
 ---
 
-> 📱 **This article is an X long-form post by @ETHassociation (SKYFOR.PF).**
+![The Hidden Yield Engine: How Pacifica’s Implicit Money Market Works (And How to Profit From It)](https://pbs.twimg.com/media/HNMlUDXXkAASpqX.jpg?name=large)
 
-> The original post on X includes **3 annotated screenshots** from the live Pacifica app — diagrams, setup steps, and worked examples.
+> Underneath Pacifica's sleek perpetual trading screen lies a high-performance implicit money market. It allows you to earn lending yields on idle deposits while simultaneously using that capital as trading margin.
 
-> 👉 **[View the full article on X →](https://x.com/ETHassociation/status/2077045901684625633)**
+### What is an 'Implicit' Money Market?
 
-> _Can't see the button? Open this URL in your browser: `https://x.com/ETHassociation/status/2077045901684625633`_
+On legacy platforms, you must choose: either deposit USDC into a lending protocol (like Aave or Kamino) to earn 6-8% APY, OR transfer that USDC to a perpetual DEX to trade. 
 
-## What this article covers
+Pacifica's **Unified Margin Architecture** integrates lending and trading into a single layer:
+* When your USDC sits in your Pacifica balance, it is automatically deployed to the protocol's lending pool.
+* You earn passive lending APY every second.
+* The moment you open a perpetual position, that exact same USDC acts as initial margin!
 
-Based on the title and metadata, this X post from the Recent covers:
+---
 
-**Topic:** The Hidden Yield Engine: How Pacifica’s Implicit Money Market Works (And How to Profit From It)
+### Borrowing Mechanics and the Kink Rate Curve
 
-**Category:** General
+When you trade with cross-asset collateral (for example, holding spot SOL and longing BTC-PERP):
+* The engine implicitly borrows USDC to fund the position's margin requirements.
+* Interest rates follow a dual-slope **Kink Utilization Curve**:
+  * **Below 80% Utilization:** Low, stable interest rates to encourage borrowing.
+  * **Above 80% Utilization:** The rate curve steepens exponentially to incentivize fresh deposits and protect protocol liquidity.
 
-> 💡 **Tip:** The full article on X includes the original screenshots, step-by-step instructions, and any examples the author shared. The catalog page on this site has all 110 articles from the same author with direct links to each.
+---
 
-**Author:** SKYFOR.PF (Pacific trading community educator)
+### How Traders Can Profit From the Money Market
 
-**Follow on X:** [@ETHassociation](https://x.com/ETHassociation)
+1. **Earn APY on Margin Reserves:** Keep your trading dry powder on Pacifica. It earns yields while waiting for sniper entries.
+2. **Borrow Against Spot Without Capital Gains Tax:** Need USDC? Deposit SOL, implicitly borrow USDC, and avoid triggering a taxable spot sale!
 
-**Try the platform yourself:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
+---
 
-![Cover](https://pbs.twimg.com/media/HNMlUDXXkAASpqX.jpg?name=large)
+📣 Ready to trade smarter?
+
+app [https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
+
+Docs: [https://docs.pacifica.fi](https://docs.pacifica.fi/)
+
+Twitter: [@pacifica_fi](https://x.com/pacifica_fi)
+
+Discord [https://discord.gg/txamDgtNd](https://discord.gg/txamDgtNd)
 
 ---
 
 ### Community Library Navigation
 * **Back to Category:** [Platform Mechanics & Deep Tech](README.md)
 * **Master Handbook:** [The Pacifica Handbook](../../README.md)
-* **Live App:** [app.pacifica.fi](https://app.pacifica.fi)
+* **Live App:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
 
 *Original educational tutorial written by SKYFOR.PF (@ETHassociation) as part of the 6-month Pacifica masterclass series.*

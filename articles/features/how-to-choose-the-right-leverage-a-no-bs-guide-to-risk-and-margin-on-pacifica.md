@@ -1,43 +1,65 @@
 # How to Choose the Right Leverage: A No-BS Guide to Risk and Margin on Pacifica
 
 > 🌊 **Author:** SKYFOR.PF ([@ETHassociation](https://x.com/ETHassociation))  
-> 📅 **Published on X:** unknown  
+> 📅 **Published on X:** 2026-07  
 > 🔗 **Original Thread on X:** [Read on X / Twitter](https://x.com/ETHassociation/status/2077020220049203659)  
 > 📚 **Category:** [Platform Mechanics & Deep Tech](../../README.md#features) · [Handbook Home](../../README.md)
 
 ---
 
-> 📱 **This article is an X long-form post by @ETHassociation (SKYFOR.PF).**
+![How to Choose the Right Leverage: A No-BS Guide to Risk and Margin on Pacifica](https://pbs.twimg.com/media/HNMMAo_WcAA4wXJ.jpg?name=large)
 
-> The original post on X includes **6 annotated screenshots** from the live Pacifica app — diagrams, setup steps, and worked examples.
+> Leverage is a double-edged sword. Used correctly, it allows for capital efficiency and disciplined hedging. Used incorrectly, it guarantees total liquidation. Here is the no-nonsense mathematical guide to leverage on Pacifica.
 
-> 👉 **[View the full article on X →](https://x.com/ETHassociation/status/2077020220049203659)**
+### Deconstructing Leverage: Notional Value vs. Margin
 
-> _Can't see the button? Open this URL in your browser: `https://x.com/ETHassociation/status/2077020220049203659`_
+When trading on [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR):
+* **Your Collateral (Margin):** The actual USDC or spot assets deposited into your account.
+* **Position Size (Notional):** The total dollar exposure you control in the market.
+* **Effective Leverage:** $\text{Notional Value} / \text{Account Equity}$.
 
-## What this article covers
+If you have $1,000 in equity and open a $10,000 SOL-PERP position, your effective leverage is **10x**, regardless of what slider value you chose!
 
-Based on the title and metadata, this X post from the Recent covers:
+---
 
-**Topic:** How to Choose the Right Leverage: A No-BS Guide to Risk and Margin on Pacifica
+### The Mathematical Reality of Liquidation Distance
 
-**Category:** General
+The maximum adverse price move your position can survive before being liquidated is determined by your initial and maintenance margin requirements:
 
-> 💡 **Tip:** The full article on X includes the original screenshots, step-by-step instructions, and any examples the author shared. The catalog page on this site has all 110 articles from the same author with direct links to each.
+$$\text{Distance to Liquidation} \approx \frac{1}{\text{Leverage}} - \text{Maintenance Margin Rate}$$
 
-**Author:** SKYFOR.PF (Pacific trading community educator)
+| Leverage Tier | Liquidation Distance | Market Regime Suitability |
+| :---: | :---: | :--- |
+| **2x – 3x** | $\sim 33\% - 50\%$ | Multi-week swing trades, macro trend following |
+| **5x** | $\sim 18\% - 20\%$ | Intraday momentum, high-confidence breakout trading |
+| **10x** | $\sim 8\% - 9\%$ | Scalping key liquidity shelves with strict stop loss |
+| **20x+** | $\sim 3\% - 4\%$ | Ultra-high risk; single 1-minute wick causes wipeout |
 
-**Follow on X:** [@ETHassociation](https://x.com/ETHassociation)
+---
 
-**Try the platform yourself:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
+### The 3 Golden Rules of Leverage on Pacifica
 
-![Cover](https://pbs.twimg.com/media/HNMMAo_WcAA4wXJ.jpg?name=large)
+1. **Never use high leverage on low-liquidity pairs:** Slippage during volatile market events will destroy positions before stop orders can fill.
+2. **Base position size on Stop Loss, not balance:** If your stop is 4% away, you cannot trade with 20x leverage. Your leverage is mathematically dictated by your invalidation level!
+3. **Monitor your Margin Health Ratio:** In the Pacifica dashboard, maintain a margin health score of at least **150% – 200%**.
+
+---
+
+📣 Ready to trade smarter?
+
+app [https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
+
+Docs: [https://docs.pacifica.fi](https://docs.pacifica.fi/)
+
+Twitter: [@pacifica_fi](https://x.com/pacifica_fi)
+
+Discord [https://discord.gg/txamDgtNd](https://discord.gg/txamDgtNd)
 
 ---
 
 ### Community Library Navigation
 * **Back to Category:** [Platform Mechanics & Deep Tech](README.md)
 * **Master Handbook:** [The Pacifica Handbook](../../README.md)
-* **Live App:** [app.pacifica.fi](https://app.pacifica.fi)
+* **Live App:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
 
 *Original educational tutorial written by SKYFOR.PF (@ETHassociation) as part of the 6-month Pacifica masterclass series.*

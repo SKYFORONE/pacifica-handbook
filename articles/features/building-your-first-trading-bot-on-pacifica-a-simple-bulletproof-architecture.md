@@ -1,43 +1,90 @@
 # Building Your First Trading Bot on Pacifica: A Simple, Bulletproof Architecture
 
 > 🌊 **Author:** SKYFOR.PF ([@ETHassociation](https://x.com/ETHassociation))  
-> 📅 **Published on X:** unknown  
+> 📅 **Published on X:** 2026-06  
 > 🔗 **Original Thread on X:** [Read on X / Twitter](https://x.com/ETHassociation/status/2076643733143974229)  
 > 📚 **Category:** [Platform Mechanics & Deep Tech](../../README.md#features) · [Handbook Home](../../README.md)
 
 ---
 
-> 📱 **This article is an X long-form post by @ETHassociation (SKYFOR.PF).**
+![Building Your First Trading Bot on Pacifica: A Simple, Bulletproof Architecture](https://pbs.twimg.com/media/HNGxdnmWUAEuTeV.jpg?name=large)
 
-> The original post on X includes **7 annotated screenshots** from the live Pacifica app — diagrams, setup steps, and worked examples.
+> Building an automated trading bot shouldn't require an entire team of engineers. By combining a clean modular architecture with Pacifica's REST and WebSocket interfaces, you can build a resilient, profitable automated trading system.
 
-> 👉 **[View the full article on X →](https://x.com/ETHassociation/status/2076643733143974229)**
+### The 4 Core Modules of a Robust Trading Bot
 
-> _Can't see the button? Open this URL in your browser: `https://x.com/ETHassociation/status/2076643733143974229`_
+1. **Market Data Ingestion:** Collects live orderbook state and candle closes.
+2. **Signal Generation Engine:** Computes quantitative triggers (e.g. TEMA crossovers, Mean Reversion bands).
+3. **Execution Manager:** Formats and signs Ed25519 order payloads, tracking fills and slippage.
+4. **Risk Sentinel:** The most critical module — continuously checks account health, position limits, and auto-kills operations if drawdown exceeds parameters.
 
-## What this article covers
+---
 
-Based on the title and metadata, this X post from the Recent covers:
+### Architecture Blueprint
 
-**Topic:** Building Your First Trading Bot on Pacifica: A Simple, Bulletproof Architecture
+```text
+[Pacifica WebSocket] ---> [Data Ingestion]
+                                |
+                                v
+                     [Signal Engine (TEMA/CCI)]
+                                |
+                                v
+                     [Risk Sentinel (Max 2% Risk)]
+                                |
+                                v
+[Pacifica REST API] <--- [Execution Manager (Ed25519)]
+```
 
-**Category:** General
+---
 
-> 💡 **Tip:** The full article on X includes the original screenshots, step-by-step instructions, and any examples the author shared. The catalog page on this site has all 110 articles from the same author with direct links to each.
+### Implementing the Risk Sentinel in Python
 
-**Author:** SKYFOR.PF (Pacific trading community educator)
+Never allow a bot to place an order without passing risk validation:
 
-**Follow on X:** [@ETHassociation](https://x.com/ETHassociation)
+```python
+class RiskSentinel:
+    def __init__(self, max_portfolio_risk_pct=0.02, max_leverage=5):
+        self.max_risk = max_portfolio_risk_pct
+        self.max_leverage = max_leverage
 
-**Try the platform yourself:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
+    def validate_order(self, account_equity, position_size_usd, stop_loss_distance_pct):
+        # Calculate maximum allowed loss
+        max_allowed_loss = account_equity * self.max_risk
+        projected_loss = position_size_usd * stop_loss_distance_pct
 
-![Cover](https://pbs.twimg.com/media/HNGxdnmWUAEuTeV.jpg?name=large)
+        if projected_loss > max_allowed_loss:
+            return False, "Projected loss exceeds max allowed risk threshold"
+        
+        if (position_size_usd / account_equity) > self.max_leverage:
+            return False, "Requested leverage exceeds safety cap"
+            
+        return True, "Order Approved"
+```
+
+---
+
+### Testing Your Bot on Pacifica Testnet
+* Never deploy untested code on mainnet capital!
+* Use Pacifica's sandbox at `test-app.pacifica.fi/trade/BTC`.
+* Claim play-USDC from the faucet to run full stress-testing against market volatility.
+
+---
+
+📣 Ready to trade smarter?
+
+app [https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
+
+Docs: [https://docs.pacifica.fi](https://docs.pacifica.fi/)
+
+Twitter: [@pacifica_fi](https://x.com/pacifica_fi)
+
+Discord [https://discord.gg/txamDgtNd](https://discord.gg/txamDgtNd)
 
 ---
 
 ### Community Library Navigation
 * **Back to Category:** [Platform Mechanics & Deep Tech](README.md)
 * **Master Handbook:** [The Pacifica Handbook](../../README.md)
-* **Live App:** [app.pacifica.fi](https://app.pacifica.fi)
+* **Live App:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
 
 *Original educational tutorial written by SKYFOR.PF (@ETHassociation) as part of the 6-month Pacifica masterclass series.*

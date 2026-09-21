@@ -1,43 +1,60 @@
 # Beyond the PnL: How to Build a Winning Trading Journal for Pacifica
 
 > 🌊 **Author:** SKYFOR.PF ([@ETHassociation](https://x.com/ETHassociation))  
-> 📅 **Published on X:** unknown  
+> 📅 **Published on X:** 2026-08  
 > 🔗 **Original Thread on X:** [Read on X / Twitter](https://x.com/ETHassociation/status/2079870557051359246)  
 > 📚 **Category:** [Platform Mechanics & Deep Tech](../../README.md#features) · [Handbook Home](../../README.md)
 
 ---
 
-> 📱 **This article is an X long-form post by @ETHassociation (SKYFOR.PF).**
+![Beyond the PnL: How to Build a Winning Trading Journal for Pacifica](https://pbs.twimg.com/media/HN0tWSwWMAAFkYD.jpg?name=large)
 
-> The original post on X includes **6 annotated screenshots** from the live Pacifica app — diagrams, setup steps, and worked examples.
+> You cannot improve what you do not measure. Most traders judge their success solely on whether today was green or red. Professional traders judge their success on whether they executed their system with discipline. Here is how to build an elite trading journal.
 
-> 👉 **[View the full article on X →](https://x.com/ETHassociation/status/2079870557051359246)**
+### Why a Trading Journal is Your Most Valuable Weapon
 
-> _Can't see the button? Open this URL in your browser: `https://x.com/ETHassociation/status/2079870557051359246`_
+Over 100 trades, your trading journal reveals critical behavioral and strategic truths:
+* Which timeframes deliver your highest win rate (e.g. 1-hour vs. 5-minute).
+* Which perpetual pairs generate your highest profit factor.
+* Whether you are losing money during specific market sessions (e.g. late-night Asian chop).
+* The real cost of emotional revenge trading and premature profit-taking.
 
-## What this article covers
+---
 
-Based on the title and metadata, this X post from the Recent covers:
+### The 6 Vital Fields Every Pacifica Journal Entry Needs
 
-**Topic:** Beyond the PnL: How to Build a Winning Trading Journal for Pacifica
+1. **Market & Direction:** (e.g. `SOL-PERP Long`, 5x leverage).
+2. **Setup Confluence:** (e.g. `Support bounce + Bullish Falling Wedge breakout + Positive volume spike`).
+3. **Execution Quality:** Did you enter with a Post-Only limit order or FOMO in at market?
+4. **Risk Parameters:** Exact entry price, stop-loss trigger price, take-profit price, and Risk-to-Reward ratio.
+5. **Psychological State:** Rated 1-10 (Calm, Focused, Anxious, Impatient, Revenge).
+6. **Post-Trade Reflection:** Did you stick to the plan? What could have been improved?
 
-**Category:** General
+---
 
-> 💡 **Tip:** The full article on X includes the original screenshots, step-by-step instructions, and any examples the author shared. The catalog page on this site has all 110 articles from the same author with direct links to each.
+### The Weekly Audit Routine
+Every Sunday:
+* Calculate your weekly **Win Rate** ($Wins / Total Trades$).
+* Calculate your **Average Winner vs. Average Loser** ratio (Aim for $>2.0$).
+* Eliminate your single worst recurring mistake for the upcoming week.
 
-**Author:** SKYFOR.PF (Pacific trading community educator)
+---
 
-**Follow on X:** [@ETHassociation](https://x.com/ETHassociation)
+📣 Ready to trade smarter?
 
-**Try the platform yourself:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
+app [https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
 
-![Cover](https://pbs.twimg.com/media/HN0tWSwWMAAFkYD.jpg?name=large)
+Docs: [https://docs.pacifica.fi](https://docs.pacifica.fi/)
+
+Twitter: [@pacifica_fi](https://x.com/pacifica_fi)
+
+Discord [https://discord.gg/txamDgtNd](https://discord.gg/txamDgtNd)
 
 ---
 
 ### Community Library Navigation
 * **Back to Category:** [Platform Mechanics & Deep Tech](README.md)
 * **Master Handbook:** [The Pacifica Handbook](../../README.md)
-* **Live App:** [app.pacifica.fi](https://app.pacifica.fi)
+* **Live App:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
 
 *Original educational tutorial written by SKYFOR.PF (@ETHassociation) as part of the 6-month Pacifica masterclass series.*

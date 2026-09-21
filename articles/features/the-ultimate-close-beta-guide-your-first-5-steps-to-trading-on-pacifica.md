@@ -1,43 +1,58 @@
 # The Ultimate Close Beta Guide: Your First 5 Steps to Trading on Pacifica
 
 > 🌊 **Author:** SKYFOR.PF ([@ETHassociation](https://x.com/ETHassociation))  
-> 📅 **Published on X:** unknown  
+> 📅 **Published on X:** 2026-07  
 > 🔗 **Original Thread on X:** [Read on X / Twitter](https://x.com/ETHassociation/status/2078074807988420728)  
 > 📚 **Category:** [Platform Mechanics & Deep Tech](../../README.md#features) · [Handbook Home](../../README.md)
 
 ---
 
-> 📱 **This article is an X long-form post by @ETHassociation (SKYFOR.PF).**
+![The Ultimate Close Beta Guide: Your First 5 Steps to Trading on Pacifica](https://pbs.twimg.com/media/HNbM2i0WcAAwghu.jpg?name=large)
 
-> The original post on X includes **4 annotated screenshots** from the live Pacifica app — diagrams, setup steps, and worked examples.
+> Onboarding onto Pacifica's high-speed perpetual DEX takes less than 5 minutes. This guide walks you through the essential initial steps to configure your environment, fund your account safely, and place your first trade.
 
-> 👉 **[View the full article on X →](https://x.com/ETHassociation/status/2078074807988420728)**
+### Step 1: Connect a Supported Solana Wallet
+1. Visit [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR).
+2. Click **Connect Wallet** in the top-right corner.
+3. Supported wallets include Phantom, Solflare, Backpack, and OneKey. Ensure your wallet has a small fraction of SOL ($0.05 SOL) to cover Solana network gas fees.
 
-> _Can't see the button? Open this URL in your browser: `https://x.com/ETHassociation/status/2078074807988420728`_
+### Step 2: Deposit Collateral (USDC or Spot Assets)
+1. Click **Deposit** in the navigation header.
+2. Deposit native Solana USDC. 
+3. Pacifica's unified engine also accepts spot SOL, BTC, and liquid staking tokens as margin collateral with predefined haircut rates.
 
-## What this article covers
+### Step 3: Configure Your Trading Screen
+* Select your target pair from the 65+ listed markets.
+* Switch between TradingView chart views, adjust timeframes, and set your favorite indicators.
+* Inspect the orderbook depth and recent trade tape.
 
-Based on the title and metadata, this X post from the Recent covers:
+### Step 4: Choose Margin Mode and Leverage
+* Set your margin mode (Cross or Isolated).
+* Configure your leverage ceiling. Beginners should always start between **2x and 3x**!
 
-**Topic:** The Ultimate Close Beta Guide: Your First 5 Steps to Trading on Pacifica
+### Step 5: Execute Your First Trade with Pre-set Stops
+* Select **Limit** or **Market**.
+* Enter position size.
+* Check the **TP/SL** checkbox to pre-define your profit target and stop loss BEFORE clicking submit!
+* Sign the cryptographic transaction in your wallet. Your position is live on-chain!
 
-**Category:** General
+---
 
-> 💡 **Tip:** The full article on X includes the original screenshots, step-by-step instructions, and any examples the author shared. The catalog page on this site has all 110 articles from the same author with direct links to each.
+📣 Ready to trade smarter?
 
-**Author:** SKYFOR.PF (Pacific trading community educator)
+app [https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
 
-**Follow on X:** [@ETHassociation](https://x.com/ETHassociation)
+Docs: [https://docs.pacifica.fi](https://docs.pacifica.fi/)
 
-**Try the platform yourself:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
+Twitter: [@pacifica_fi](https://x.com/pacifica_fi)
 
-![Cover](https://pbs.twimg.com/media/HNbM2i0WcAAwghu.jpg?name=large)
+Discord [https://discord.gg/txamDgtNd](https://discord.gg/txamDgtNd)
 
 ---
 
 ### Community Library Navigation
 * **Back to Category:** [Platform Mechanics & Deep Tech](README.md)
 * **Master Handbook:** [The Pacifica Handbook](../../README.md)
-* **Live App:** [app.pacifica.fi](https://app.pacifica.fi)
+* **Live App:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
 
 *Original educational tutorial written by SKYFOR.PF (@ETHassociation) as part of the 6-month Pacifica masterclass series.*

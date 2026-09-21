@@ -1,43 +1,60 @@
 # Market vs Limit Orders: The Execution Playbook That Saves You Money on Pacifica
 
 > 🌊 **Author:** SKYFOR.PF ([@ETHassociation](https://x.com/ETHassociation))  
-> 📅 **Published on X:** unknown  
+> 📅 **Published on X:** 2026-07  
 > 🔗 **Original Thread on X:** [Read on X / Twitter](https://x.com/ETHassociation/status/2078069788648100016)  
 > 📚 **Category:** [Platform Mechanics & Deep Tech](../../README.md#features) · [Handbook Home](../../README.md)
 
 ---
 
-> 📱 **This article is an X long-form post by @ETHassociation (SKYFOR.PF).**
+![Market vs Limit Orders: The Execution Playbook That Saves You Money on Pacifica](https://pbs.twimg.com/media/HNbIvHBXEAAZbJd.jpg?name=large)
 
-> The original post on X includes **3 annotated screenshots** from the live Pacifica app — diagrams, setup steps, and worked examples.
+> The difference between a profitable trader and an unprofitable one often comes down to execution quality. Choosing the wrong order type bleeds thousands of dollars in hidden slippage and taker fees. Here is the masterclass execution playbook.
 
-> 👉 **[View the full article on X →](https://x.com/ETHassociation/status/2078069788648100016)**
+### Order Type Fundamentals
 
-> _Can't see the button? Open this URL in your browser: `https://x.com/ETHassociation/status/2078069788648100016`_
+1. **Market Orders (Taker):** Executes immediately at the best available current market price.
+   * **Advantage:** 100% guarantee of execution speed.
+   * **Disadvantage:** You pay higher taker fees and suffer slippage against orderbook depth.
+2. **Limit Orders (Maker):** Places an order in the book at a designated price or better.
+   * **Advantage:** Zero slippage, lower maker fees (or zero maker fees for VIP/MM tiers!).
+   * **Disadvantage:** No guarantee of fill if price reverses before reaching your level.
 
-## What this article covers
+---
 
-Based on the title and metadata, this X post from the Recent covers:
+### Time-in-Force (TIF) Flags on Pacifica
 
-**Topic:** Market vs Limit Orders: The Execution Playbook That Saves You Money on Pacifica
+Pacifica supports institutional TIF parameters:
+* **GTC (Good 'Til Cancelled):** Order stays active until filled or manually removed.
+* **IOC (Immediate or Cancel):** Fills whatever quantity is immediately available at your limit price; cancels the remainder.
+* **FOK (Fill or Kill):** The order must be filled in its entirety immediately, or completely cancelled.
+* **Post-Only:** Guarantees your order will only enter the book as a maker limit order. If it would execute immediately as a taker, the engine cancels it automatically — protecting your maker fee status!
 
-**Category:** General
+---
 
-> 💡 **Tip:** The full article on X includes the original screenshots, step-by-step instructions, and any examples the author shared. The catalog page on this site has all 110 articles from the same author with direct links to each.
+### The Execution Playbook
 
-**Author:** SKYFOR.PF (Pacific trading community educator)
+* **Entering Positions:** Always strive to use **Post-Only Limit Orders** at key technical support/resistance levels.
+* **Exiting on Take-Profit:** Use passive Limit orders resting in front of major liquidity shelves.
+* **Emergency Exits (Stop Loss):** Use **Stop-Market Orders**. When invalidation hits, execution certainty is infinitely more important than saving a few basis points on fees!
 
-**Follow on X:** [@ETHassociation](https://x.com/ETHassociation)
+---
 
-**Try the platform yourself:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
+📣 Ready to trade smarter?
 
-![Cover](https://pbs.twimg.com/media/HNbIvHBXEAAZbJd.jpg?name=large)
+app [https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
+
+Docs: [https://docs.pacifica.fi](https://docs.pacifica.fi/)
+
+Twitter: [@pacifica_fi](https://x.com/pacifica_fi)
+
+Discord [https://discord.gg/txamDgtNd](https://discord.gg/txamDgtNd)
 
 ---
 
 ### Community Library Navigation
 * **Back to Category:** [Platform Mechanics & Deep Tech](README.md)
 * **Master Handbook:** [The Pacifica Handbook](../../README.md)
-* **Live App:** [app.pacifica.fi](https://app.pacifica.fi)
+* **Live App:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
 
 *Original educational tutorial written by SKYFOR.PF (@ETHassociation) as part of the 6-month Pacifica masterclass series.*

@@ -1,43 +1,72 @@
 # Volume Analysis: How to Distinguish Real Moves from Fake Moves on Pacifica
 
 > 🌊 **Author:** SKYFOR.PF ([@ETHassociation](https://x.com/ETHassociation))  
-> 📅 **Published on X:** unknown  
+> 📅 **Published on X:** 2026-06  
 > 🔗 **Original Thread on X:** [Read on X / Twitter](https://x.com/ETHassociation/status/2076263229538390019)  
 > 📚 **Category:** [Platform Mechanics & Deep Tech](../../README.md#features) · [Handbook Home](../../README.md)
 
 ---
 
-> 📱 **This article is an X long-form post by @ETHassociation (SKYFOR.PF).**
+![Volume Analysis: How to Distinguish Real Moves from Fake Moves on Pacifica](https://pbs.twimg.com/media/HNBbJrcXYAEj1sV.jpg?name=large)
 
-> The original post on X includes **9 annotated screenshots** from the live Pacifica app — diagrams, setup steps, and worked examples.
+> Price shows you what happened; volume shows you who made it happen. Volume is the fuel of the market. Without volume validation, every breakout is vulnerable to instant rejection.
 
-> 👉 **[View the full article on X →](https://x.com/ETHassociation/status/2076263229538390019)**
+### The Foundation: Volume Precedes Price
 
-> _Can't see the button? Open this URL in your browser: `https://x.com/ETHassociation/status/2076263229538390019`_
+Large market makers and institutional desks cannot enter or exit without leaving significant footprints in the volume profile. 
 
-## What this article covers
+When you analyze perpetual orderbooks on Pacifica:
+* **High Volume + Large Spread:** Strong, healthy market commitment.
+* **Low Volume + Large Spread:** Fragile move caused by liquidity vacuum; high probability of reversal.
+* **High Volume + Narrow Spread:** Massive absorption taking place behind the scenes (accumulation or distribution).
 
-Based on the title and metadata, this X post from the Recent covers:
+---
 
-**Topic:** Volume Analysis: How to Distinguish Real Moves from Fake Moves on Pacifica
+### Reading Volume on Pacifica
 
-**Category:** General
+1. Open your chart on [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR).
+2. The default bottom pane displays color-coded volume bars:
+   * **Green:** Volume executed on an upward candle close.
+   * **Red:** Volume executed on a downward candle close.
+3. Compare the current bar's height against the 20-period Volume Moving Average.
 
-> 💡 **Tip:** The full article on X includes the original screenshots, step-by-step instructions, and any examples the author shared. The catalog page on this site has all 110 articles from the same author with direct links to each.
+---
 
-**Author:** SKYFOR.PF (Pacific trading community educator)
+### Identifying Real vs. Fake Moves
 
-**Follow on X:** [@ETHassociation](https://x.com/ETHassociation)
+#### The Valid Breakout
+* Price punches through a critical resistance level.
+* The breakout candle is accompanied by a volume bar at least $2\times - 3\times$ higher than the 20-period average.
+* **Verdict:** Real institutional buying. Safe to follow trend.
 
-**Try the platform yourself:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
+#### The Bull Trap (Fakeout)
+* Price breaks above resistance, enticing retail traders to market buy on FOMO.
+* The volume bar is below average or declining.
+* The next candle prints a long upper shadow (wick) and closes back beneath resistance.
+* **Verdict:** Liquidity grab. High probability short setup!
 
-![Cover](https://pbs.twimg.com/media/HNBbJrcXYAEj1sV.jpg?name=large)
+---
+
+### Key Takeaway
+Never believe a price breakout that occurs on declining volume. Volume is the truth-teller of financial markets.
+
+---
+
+📣 Ready to trade smarter?
+
+app [https://app.pacifica.fi?referral=SKYFOR](https://app.pacifica.fi?referral=SKYFOR)
+
+Docs: [https://docs.pacifica.fi](https://docs.pacifica.fi/)
+
+Twitter: [@pacifica_fi](https://x.com/pacifica_fi)
+
+Discord [https://discord.gg/txamDgtNd](https://discord.gg/txamDgtNd)
 
 ---
 
 ### Community Library Navigation
 * **Back to Category:** [Platform Mechanics & Deep Tech](README.md)
 * **Master Handbook:** [The Pacifica Handbook](../../README.md)
-* **Live App:** [app.pacifica.fi](https://app.pacifica.fi)
+* **Live App:** [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR)
 
 *Original educational tutorial written by SKYFOR.PF (@ETHassociation) as part of the 6-month Pacifica masterclass series.*
