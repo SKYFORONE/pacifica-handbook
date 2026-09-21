@@ -1,51 +1,166 @@
 # Downward Wedge pattern on Pacifica
 
 > 🌊 **Author:** SKYFOR.PF ([@ETHassociation](https://x.com/ETHassociation))  
-> 📅 **Published on X:** 2026-06  
+> 📅 **Published on X:** Sat Jun 27  
 > 🔗 **Original Thread on X:** [Read on X / Twitter](https://x.com/ETHassociation/status/2070846294256451783)  
 > 📚 **Category:** [Chart Patterns & Price Action](../../README.md#patterns) · [Handbook Home](../../README.md)
 
 ---
 
-![Downward Wedge pattern on Pacifica](https://pbs.twimg.com/media/HL0bYWUXMAArzer.jpg?name=large)
+![Downward Wedge pattern on Pacifica](https://pbs.twimg.com/media/HL0bYWUXMAArzer.jpg)
 
-> The Downward (Falling) Wedge is one of the most powerful bullish reversal and continuation chart patterns in technical analysis. It represents contracting seller momentum and progressive accumulation by smart money.
 
-### Anatomy of a Downward Wedge
+What is this pattern?
+A descending wedge is a graphical pattern that appears on a downtrend and warns of a possible upward reversal
 
-A falling wedge is formed by two converging downward trendlines:
-1. **Upper Resistance Line:** Formed by a series of lower highs.
-2. **Lower Support Line:** Formed by a series of lower lows, but sloping downward at a shallower angle than the upper line.
 
-The shallower angle of the lower boundary proves that sellers are losing conviction on each successive push down.
+The main difference from a regular triangle: both lines of the wedge are directed downward, but the angle of the upper boundary is steeper than the lower one. That is, the price is “squeezing” into a narrow corridor, but it is going down slower and slower
 
----
 
-### Step-by-Step Identification on Pacifica Charts
+What does a descending wedge look like?
+The price is moving downward, but each new “wave” is shorter and shorter.
 
-1. Open your target perpetual market on [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR).
-2. Select the **Trendline Tool** from the left-hand drawing menu.
-3. Connect at least 3 distinct swing highs and 3 distinct swing lows.
-4. Verify that the pattern tapers toward an apex point.
-5. Watch volume: Volume should steadily contract as price approaches the apex, followed by a dramatic volume spike on the breakout candle.
 
----
+Two narrowing trends are formed: upper and lower.
 
-### Execution Playbook: 2 Ways to Trade the Breakout
 
-#### Approach 1: Aggressive Breakout Entry
-* Buy the moment a 1-hour candle breaks and closes strictly above the upper descending resistance line.
-* Stop Loss: Placed just below the most recent swing low within the wedge.
+The price is “squeezed” between these lines, as in a wedge.
 
-#### Approach 2: Conservative Retest Entry (Recommended)
-* Wait for the breakout to occur.
-* Allow price to retrace and test the previous descending trendline as newly confirmed support.
-* Enter on the appearance of a bullish rejection wick on the retest.
+
+The closer to the end of the wedge, the less fluctuations.
+
+
+The upward breakout is when the real movement begins.
+
+
+> *In this article, I will explain in simple terms how the pattern works on Pacifica, how to use it correctly and what you should pay attention to.*
+
+
+![Illustration 1](https://pbs.twimg.com/media/HL0buUWWQAEql4Q.jpg)
+
 
 ---
 
-### Measuring the Profit Target
-Measure the vertical height of the wedge at its widest opening. Project that exact dollar distance upward from the breakout point to establish your Take-Profit target.
+
+## How to start on Pacifica
+
+1. Open the Pacifica
+1. analyze the market
+
+Where does it appear?
+After a downtrend,  as a signal for an upward reversal.
+
+
+Inside an uptrend correction, as a temporary stop before the growth continues.
+
+
+![Illustration 2](https://pbs.twimg.com/media/HL0deyuXQAAQt9F.jpg)
+
+
+---
+
+
+**How to trade a descending wedge?**
+
+
+1️⃣ Waiting for upside breakout
+It is important not to hurry, enter only after breaking the upper boundary of the wedge.
+
+
+Breakout is desirable on increased volumes.
+
+
+2️⃣ Entering a position
+You can enter immediately on the breakdown.
+
+
+Or wait for a retest of the broken line (more reliable).
+
+
+3️⃣ Stop Loss
+We put it a little below the last depression in the wedge.
+
+
+4️⃣ Take Profit
+Measure the height of the base of the wedge (the first wave down).
+
+
+We postpone it upwards from the breakdown point, this is the target zone.
+
+
+![Illustration 3](https://pbs.twimg.com/media/HL0eS0ZWsAAA9vk.jpg)
+
+
+---
+
+
+Example of a trade
+A wedge is formed after a decline from 80 to 65.
+
+
+Price gradually narrows: highs 75 → 72 → 70, lows 65 → 66 → 67.
+
+
+Break up at 70 with good volume → enter long.
+
+
+Stop,  under 66, target — 75 (height of the wedge: 80–65 = 15, 70 + 15 = 85).
+
+
+![Illustration 4](https://pbs.twimg.com/media/HL0fVr8XoAA5X3r.png)
+
+
+## Advantages and ❌ Disadvantages
+
+
+Advantages:
+Works well as a reversal, especially after prolonged falls.
+
+
+Gives clear signals and targets.
+
+
+Great to see on the chart,  easy to recognize
+
+
+Disadvantages:
+There can be false breakouts,especially on weak volumes.
+
+
+Sometimes a wedge develops into a triangle or sideways.
+
+
+You need patience, the pattern does not form quickly.
+
+
+A descending wedge is a pattern that “stores energy” before a possible reversal. It says, “Yes, we’re falling for now, but there are fewer and fewer sellers,  there could be a shot to the upside soon.
+
+
+> Tip: be sure to watch volumes and confirm the breakout with other tools (RSI, MACD, candlestick patterns)
+
+
+---
+
+
+📣 Ready to trade smarter?
+
+
+app          https://app.pacifica.fi?referral=SKYFOR
+
+
+Docs:      https://docs.pacifica.fi
+
+
+Twitter:   @pacifica_fi
+
+
+Discord   https://discord.gg/txamDgtNd
+
+
+---
+
+
+![Illustration 5](https://pbs.twimg.com/media/HL0fs3pWAAAzagx.png)
 
 ---
 

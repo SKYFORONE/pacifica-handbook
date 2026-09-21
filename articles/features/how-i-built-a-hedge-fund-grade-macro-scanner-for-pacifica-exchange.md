@@ -1,45 +1,148 @@
 # How I Built a Hedge-Fund Grade Macro Scanner for Pacifica Exchange 🌊
 
 > 🌊 **Author:** SKYFOR.PF ([@ETHassociation](https://x.com/ETHassociation))  
-> 📅 **Published on X:** 2026-07  
+> 📅 **Published on X:** Mon Jul 13  
 > 🔗 **Original Thread on X:** [Read on X / Twitter](https://x.com/ETHassociation/status/2076658096785498162)  
 > 📚 **Category:** [Platform Mechanics & Deep Tech](../../README.md#features) · [Handbook Home](../../README.md)
 
 ---
 
-![How I Built a Hedge-Fund Grade Macro Scanner for Pacifica Exchange 🌊](https://pbs.twimg.com/media/HNHDkfbWcAEQAmr.jpg?name=large)
+![How I Built a Hedge-Fund Grade Macro Scanner for Pacifica Exchange 🌊](https://pbs.twimg.com/media/HNHDkfbWcAEQAmr.jpg)
 
-> To beat the market on Pacifica, you cannot trade blind. I engineered a dedicated hedge-fund grade Macro Scanner that monitors all 65+ listed perpetual pairs, calculates cross-market correlations, and flags institutional flow in real-time.
 
-### Architectural Overview of the Macro Engine
+> *Hey everyone. If you’ve been trading crypto long enough, you know the harsh reality: technical analysis alone just doesn’t cut it anymore. You can have the most beautiful MACD crossover or RSI divergence, but if J-Powell sneezes at a press conference or some geopolitical drama kicks off, your technical setup gets completely invalidated in seconds.*
 
-The scanner operates across three asynchronous computational layers:
-1. **The Telemetry Collector:** Streams 100ms orderbook snapshots, open interest changes, and mark-to-index spreads from Pacifica's WebSocket API.
-2. **The Statistical Vector Engine:** Computes z-scores on volume velocity, rolling 24-hour funding rates, and skew across perpetual orderbooks.
-3. **The Alert Terminal:** Ranks assets by relative momentum and liquidation vulnerability, delivering instant actionable setups.
 
----
+I’ve been exploring the Pacifica Exchange recently, especially their new global situation and macro tracking dashboards. It got me thinking: what if I could build a custom terminal that inherently correlates technical chart data with real-world macro events?
 
-### The 3 Alpha Signals the Scanner Looks For
 
-#### 1. The Funding Rate Dislocation
-* When an asset's price is rising, but the hourly funding rate plunges into deeply negative territory.
-* **Diagnosis:** Aggressive retail is panic-shorting into institutional spot absorption. A massive short squeeze is guaranteed.
+So, I spent the weekend building exactly that. I call it the Pacifica Super Scanner. Here’s how I built it and how you can do something similar.
 
-#### 2. The Open Interest Divergence
-* Price moves sideways inside a tight 1% range, but Open Interest (OI) explodes by $+25\%$ in 30 minutes.
-* **Diagnosis:** Massive leverage is coiling up inside the orderbook. The breakout from this range will be violent and directional.
 
-#### 3. Orderbook Skew Ratio
-* Measures cumulative bids vs. cumulative asks within $1\%$ of the mid-price.
-* A bid-to-ask skew exceeding $3.5 : 1$ indicates significant passive wall placement by institutional market makers.
+![Illustration 1](https://pbs.twimg.com/media/HNHDvwuXkAAawfo.jpg)
+
 
 ---
 
-### Building Your Own Quantitative Terminal on Pacifica
-* Leverage Python's `asyncio` and `websockets` for zero-lag pipeline throughput.
-* Store rolling price feeds in high-speed in-memory data structures (NumPy / Pandas).
-* Use Pacifica's sub-second Solana settlement to front-run delayed CEX arbitrageurs.
+
+## The Architecture: Layer 2 vs. Layer 3
+
+
+To make this work, I split the bot's logic into two distinct brains:
+
+
+**Layer 2: The Technical Engine**
+
+
+This is your standard quant stuff. I wrote a Python script that hooks directly into Pacifica's REST API (`https://api.pacifica.fi/api/v1`). It pulls the top 50 active perpetual markets and downloads the historical klines (candles) for the 1D, 4H, and 1H timeframes.
+
+
+I wrote custom functions to calculate RSI, EMAs, ATR (for dynamic stop losses), and MACD. The trick here is Multi-Timeframe (MTF) confirmation. A 1H breakout is noise; a 1H breakout backed by a 4H and 1D bullish trend is a high-probability setup.
+
+
+> ❗Since the code doesn't fit entirely in a tweet, I'll split it into two parts.❗
+
+
+**Part 1**
+
+
+**part 2**
+
+
+![Illustration 2](https://pbs.twimg.com/media/HNHE9FJXoAAuBm0.png)
+
+
+**Just combine them into a single line of code**
+
+
+---
+
+
+## Layer 3: The Macro & Fundamental Engine
+
+
+This is where things get interesting. I wanted the bot to mimic Pacifica's "Global Situation" dashboard. I built a standalone `macro_engine.py` that does three things:
+
+
+1. Live News NLP: It pulls RSS feeds from major crypto news outlets and runs them through `TextBlob` for real-time sentiment analysis.
+
+
+2. Geopolitical Risk Index: It scans live headlines for trigger words ("war", "SEC", "inflation", "CPI", "crash"). Based on keyword density, it generates a live Risk Index from 0 to 100.
+
+
+3. Liquidity Check: It pulls the global Fear & Greed Index to gauge retail liquidity.
+
+
+![Illustration 3](https://pbs.twimg.com/media/HNHFPbNXcAASp0_.png)
+
+
+---
+
+
+## Bringing It All Together
+
+
+The magic happens when Layer 2 and Layer 3 talk to each other.
+
+
+Let's say Pacifica's API data shows a massive volume breakout on `$SOL`. The Layer 2 engine flags it as a `STRONG LONG`.
+
+
+Normally, a basic bot would just execute the trade. But my Super Scanner passes that signal to Layer 3 first.
+
+
+If Layer 3 detects a high Risk Index (e.g., bad inflation data just dropped), it slaps a warning on the trade: `!!! L3 MACRO DANGER: REDUCE RISK !!!`.
+
+
+If the macro background is bullish, it upgrades the signal to `+++ L3 ULTRA CONFIRMATION +++`.
+
+
+---
+
+
+**The Result**
+
+
+I built the UI directly in the terminal using Python's `colorama` library because, let's be honest, nothing feels cooler than a dark terminal spitting out colored quantitative data.
+
+
+It scans 50 coins, cross-references them with global geopolitical risk, calculates dynamic Stop Losses and Take Profits based on ATR, and prints the top 10 best setups—all in about 15 seconds.
+
+
+If you are building your own tools, here is a piece of advice: Combine your custom API scripts with Pacifica's native AI tools for maximum alpha. The exchange's infrastructure is incredibly fast, and their focus on providing macro-level data natively makes it a playground for quants.
+
+
+I won't be dropping the full source code just yet (a man has to protect his edge, right?), but the logic is there for you to build your own.
+
+
+See you on the order books. ✌️
+
+
+---
+
+
+📣 Ready to trade smarter?
+
+
+app          https://app.pacifica.fi?referral=SKYFOR
+
+
+Docs:      https://docs.pacifica.fi
+
+
+Twitter:   @pacifica_fi
+
+
+Team:    @_guynemer @ConstanceWaing   @pacifica_intern
+
+
+Discord   https://discord.gg/txamDgtNd
+
+
+---
+
+
+![Illustration 4](https://pbs.twimg.com/media/HNHFgPfXUAAlafo.png)
 
 ---
 

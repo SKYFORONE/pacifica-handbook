@@ -1,56 +1,111 @@
 # Commodity Channel Index (CCI) Indicator: How to use on Pacifica
 
 > 🌊 **Author:** SKYFOR.PF ([@ETHassociation](https://x.com/ETHassociation))  
-> 📅 **Published on X:** 2026-06  
+> 📅 **Published on X:** Fri Jun 05  
 > 🔗 **Original Thread on X:** [Read on X / Twitter](https://x.com/ETHassociation/status/2062879518667260403)  
 > 📚 **Category:** [Risk Management & Mathematics](../../README.md#risk-management) · [Handbook Home](../../README.md)
 
 ---
 
-![Commodity Channel Index (CCI) Indicator: How to use on Pacifica](https://pbs.twimg.com/media/HKDOCMGWkAAeqqJ.jpg?name=large)
+![Commodity Channel Index (CCI) Indicator: How to use on Pacifica](https://pbs.twimg.com/media/HKDOCMGWkAAeqqJ.jpg)
 
-> The Commodity Channel Index (CCI) is a versatile momentum oscillator developed by Donald Lambert. It quantifies the relationship between the asset's price, a moving average, and normal statistical deviations from that average.
 
-### The Mathematics Behind CCI on Pacifica
+> *Commodity Channel Index (CCI) is an oscillator that measures the deviation of price from its average value. The indicator helps to determine overbought and oversold zones, as well as to identify possible reversals and the beginning of new trends.*
 
-CCI tracks cyclical trends by computing standard deviation variations:
 
-$$CCI = \frac{\text{Typical Price} - \text{SMA}(TP, n)}{0.015 \times \text{Mean Deviation}}$$
+![Illustration 1](https://pbs.twimg.com/media/HKDOMfCXsAAX_Ev.jpg)
 
-* **Typical Price (TP):** $(High + Low + Close) / 3$
-* **Constant (0.015):** Ensures approximately 70% to 80% of CCI values stay between $-100$ and $+100$.
 
-When CCI punches outside the $\pm 100$ boundaries, the market is experiencing extreme velocity.
+## How to add an indicator to Pacifica
 
----
+1. Open the Pacifica
+1. Click on the indicators tab
+1. search for the name of the indicator
 
-### Configuring CCI on Pacifica Perpetual Charts
+![Illustration 2](https://pbs.twimg.com/media/HKDO0bMWEAAOZaZ.jpg)
 
-1. Launch the chart on [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR).
-2. Open the **Indicators** menu, search for **Commodity Channel Index (CCI)**.
-3. Recommended settings:
-   * **Period:** 14 or 20 (standard).
-   * **Overbought Threshold:** $+100$ (or $+200$ for hyper-volatile memecoins).
-   * **Oversold Threshold:** $-100$ (or $-200$).
 
----
+## How the Commodity Channel Index (CCI) works
 
-### Actionable Setups on Perpetual Futures
 
-#### 1. The Momentum Breakout (Trend Following)
-* Traditional retail mistakenly fades CCI as soon as it crosses $+100$.
-* **Pro Execution:** When CCI breaks above $+100$ with surging volume, it confirms an explosive trend expansion. Enter Long, targeting the next resistance shelf.
-* Exit when CCI drops back below $+100$.
+The CCI fluctuates around the zero line and its values can be either positive or negative. The main levels are:
 
-#### 2. Deep Divergence Reversal (Counter-Trend)
-* **Bullish Divergence:** Price prints a lower low, but CCI prints a clear higher low below $-100$.
-* This reveals exhaustion of sellers. Enter on the close of the first candle where CCI curls back upward.
+* 100 and above the market is overbought, a downward reversal is possible.
+* 100 and below  the market is oversold, a reversal upward is possible.
+
+![Illustration 3](https://pbs.twimg.com/media/HKDPrIVXcAAuFuc.png)
+
 
 ---
 
-### Risk Management Guardrails
-* Never hold an unhedged perp position without a predefined stop loss.
-* In raging bull runs, CCI can remain pinned above $+100$ for days. Never blind-short an overbought CCI without price structure breakdown!
+
+## Key operating principles:
+
+
+If the CCI rises above +100 — this is a signal of the strength of the uptrend.
+
+
+![Illustration 4](https://pbs.twimg.com/media/HKDQMw3XYAAIvtM.png)
+
+
+If the CCI falls below -100, it is a sign of a strong downtrend.
+
+
+![Illustration 5](https://pbs.twimg.com/media/HKDQ3AfWsAAVmc8.png)
+
+
+A zero line crossing may indicate a trend change.
+
+
+![Illustration 6](https://pbs.twimg.com/media/HKDRNwxW4AAnLCX.jpg)
+
+
+**Practical example on Pacifica**
+
+
+Let’s say that on the Pacifica platform CCI falls below -100, then starts to rise up and crosses this level. This is a buy signal.
+
+
+If the CCI reaches +100 and starts to reverse down, it is a good opportunity to lock in profits.
+
+
+**🚀 Tips for trading with Commodity Channel Index**
+
+
+Combine with other indicators: Use Moving Average for trend confirmation or RSI for additional overbought/oversold zone analysis.
+
+
+Customize parameters: The standard value is 14 periods, but you can use 20 or 30 for more accurate signals on Pacifica.
+
+
+Risk Management: Always place a stop loss behind the nearest extrema to protect yourself from false signals.
+
+
+---
+
+
+📣 Ready to trade smarter?
+
+
+app          https://app.pacifica.fi?referral=SKYFOR
+
+
+Docs:      https://docs.pacifica.fi
+
+
+Twitter:   @pacifica_fi
+
+
+Discord   https://discord.gg/txamDgtNd
+
+
+---
+
+
+> *If this deep dive into advanced trading strategies helped you level up your approach, drop a clap 👍and follow for more quantitative insights. Which strategy are you planning to deploy first? Let me know in the comments!*
+
+
+![Illustration 7](https://pbs.twimg.com/media/HKDR7dYW0AA8PHB.jpg)
 
 ---
 

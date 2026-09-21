@@ -1,61 +1,198 @@
 # Triple EMA Indicator: on Pacifica
 
 > 🌊 **Author:** SKYFOR.PF ([@ETHassociation](https://x.com/ETHassociation))  
-> 📅 **Published on X:** 2026-06  
+> 📅 **Published on X:** Sat Jun 06  
 > 🔗 **Original Thread on X:** [Read on X / Twitter](https://x.com/ETHassociation/status/2063240825673302145)  
 > 📚 **Category:** [Indicators & Quantitative Tools](../../README.md#indicators) · [Handbook Home](../../README.md)
 
 ---
 
-![Triple EMA Indicator: on Pacifica](https://pbs.twimg.com/media/HKITpquXoAAk79R.jpg?name=large)
+![Triple EMA Indicator: on Pacifica](https://pbs.twimg.com/media/HKITpquXoAAk79R.jpg)
 
-> Standard moving averages suffer from lag. The Triple Exponential Moving Average (TEMA / Triple EMA), developed by Patrick Mulloy, applies a triple-smoothing algorithm that eliminates lag while preserving trend purity.
 
-### Why Triple EMA Outperforms Simple Moving Averages
+> *Triple EMA is an indicator that is based on the triple exponential moving average. It helps to smooth out market noise and react faster to trend changes. Unlike a regular EMA, has less lag and gives more accurate entry and exit signals.*
 
-In fast-paced crypto perps, by the time a standard 50 SMA crosses a 200 SMA, half the move is already finished. 
 
-The Triple EMA formula:
+![Illustration 1](https://pbs.twimg.com/media/HKIT16FXIAAjrk8.jpg)
 
-$$\text{TEMA} = (3 \times EMA_1) - (3 \times EMA_2) + EMA_3$$
 
-Where:
-* $EMA_1$ = standard EMA of price.
-* $EMA_2$ = EMA of $EMA_1$.
-* $EMA_3$ = EMA of $EMA_2$.
+## How to add an indicator to Pacifica
 
-This mathematical subtraction cancels out phase lag, giving Pacifica traders instantaneous reaction time to sharp trend pivots.
+1. Open the Pacifica
+1. Click on the indicators tab
+1. search for the name of the indicator Triple EMA
 
----
+![Illustration 2](https://pbs.twimg.com/media/HKIURf3XQAArrpQ.jpg)
 
-### Setting Up the Triple EMA Ribbon on Pacifica
-
-1. Open [app.pacifica.fi](https://app.pacifica.fi?referral=SKYFOR).
-2. Search and add **Triple EMA** in the Indicators dialogue.
-3. Configure the classic 3-Ribbon Setup:
-   * **Fast TEMA:** 9 periods (Short-term trigger)
-   * **Medium TEMA:** 21 periods (Trend baseline)
-   * **Slow TEMA:** 55 periods (Macro structural filter)
 
 ---
 
-### Masterclass Trading Playbook
 
-#### The Golden Alignment Long
-* **Trigger:** Fast (9) crosses above Medium (21), and both are trading above Slow (55).
-* **Candle Confirmation:** A decisive close above the 9 TEMA.
-* **Stop Placement:** 0.5% below the 21 TEMA.
-* **Profit Target:** Trail the stop beneath the 21 TEMA until a candle closes beneath it.
+## always add at least three Triple EMA Indicator
 
-#### The Liquidation Flush Short
-* When market structure breaks and Fast (9) slices downward through Medium (21) and Slow (55), momentum is aggressively negative.
-* Enter short with cross-margin, targeting prior support liquidity pools.
+
+**These are the settings I use**
+
+
+# Add 3 time Triple EMA
+
+
+and go to the setings
+
+
+TEMA  - 15
+TEMA  - 20
+TEMA  - 30
+
+
+![Illustration 3](https://pbs.twimg.com/media/HKIVogwXsAADevb.jpg)
+
 
 ---
 
-### Practical Insights for Pacifica Traders
-* Use 15m and 1h timeframes for high reliability.
-* On 1m or 5m charts during low-volume sessions, moving averages can whip-saw. Always filter with Orderbook depth!
+
+## How Triple EMA Indicator works
+
+
+TEMA is a combination of three EMAs:
+
+
+The first EMA is the basic moving average.
+
+
+The second EMA smooths the first EMA.
+
+
+The third EMA smooths the result of the second EMA.
+
+
+![Illustration 4](https://pbs.twimg.com/media/HKIWDzWXYAAcbOn.jpg)
+
+
+Key operating principles:
+
+
+If the price is above TEMA, the trend is upward.
+
+
+If the price is below the TEMA,  the trend is downward.
+
+
+The intersection of TEMA with the price gives a signal to enter or exit.
+
+
+![Illustration 5](https://pbs.twimg.com/media/HKIWtXrWsAAn_Dc.jpg)
+
+
+---
+
+
+## How to use Triple EMA on Pacifica
+
+
+Determining trend direction:
+
+
+When price is above the TEMA, the market is in a bullish trend  look for a buying opportunity.
+
+
+![Illustration 6](https://pbs.twimg.com/media/HKIXPtDXYAA2wyz.jpg)
+
+
+If the price is below TEMA, it’s a bearish trend, look for selling points
+
+
+![Illustration 7](https://pbs.twimg.com/media/HKIX-lRXcAAMlJ2.jpg)
+
+
+---
+
+
+## Finding entry and exit points:
+
+
+Long (Buy): When price crosses TEMA from bottom to top, it is a signal to enter a long position.
+
+
+![Illustration 8](https://pbs.twimg.com/media/HKIYVX3WoAALb6B.jpg)
+
+
+Short (sell): If the price crosses the TEMA from top to bottom, this is a signal to go short.
+
+
+![Illustration 9](https://pbs.twimg.com/media/HKIYunIXMAArvQZ.jpg)
+
+
+---
+
+
+## Signal Confirmation:
+
+
+Use RSI or MACD to confirm trend direction.
+
+
+Check volume: Strong volume when crossing strengthens the signal.
+
+
+Press enter or click to view image in full size
+
+
+![Illustration 10](https://pbs.twimg.com/media/HKIZyjnXAAAobOy.jpg)
+
+
+---
+
+
+## Practical example on Pacifica
+
+
+Imagine that on the Pacifica, the price crosses TEMA from bottom to top. This is a confirmed buy signal.
+
+
+If price later reverses and crosses the TEMA from top to bottom, this is a reason to close the long and consider a short.
+
+
+**🚀 Tips for trading with Triple EMA Indicator**
+
+
+Adjust the parameters to the market: Periods 15, 20 and 30 work well on Pacifica,  they balance speed and accuracy.
+
+
+Combine with other indicators: Use Bollinger Bands to assess volatility and Stochastic to find overbought/oversold zones.
+
+
+Filter out false signals: Ignore crossovers if they are flat, wait for a clear move.
+
+
+Risk Management: Place a stop loss behind the last local low/maximum to limit losses.
+
+
+👉 Triple EMA is a great tool for trend trading on Pacifica. It helps you react quickly to market changes and pinpoint the exact moments to enter and exit!
+
+
+---
+
+
+📣 Ready to trade smarter?
+
+
+app          https://app.pacifica.fi?referral=SKYFOR
+
+
+Docs:      https://docs.pacifica.fi
+
+
+Twitter:   @pacifica_fi
+
+
+Discord   https://discord.gg/txamDgtNd
+
+
+---
+
+
+![Illustration 11](https://pbs.twimg.com/media/HKIacMsXwAEY6nU.png)
 
 ---
 
