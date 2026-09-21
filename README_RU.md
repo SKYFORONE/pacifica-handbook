@@ -111,7 +111,7 @@ Pacifica — это не просто очередная децентрализ�
 
 ### 📚 Автор книги и образовательной империи:
 
-* **Максим — SKYFOR.PF 🌊** ([@ETHassociation](https://x.com/ETHassociation)) — Амбассадор Pacifica, 3D-художник и автор 110 мастер-классов
+* **Максим — SKYFOR.PF 🌊** ([@ETHassociation](https://x.com/ETHassociation)) — Pacifica Community & Создатель 110 мастер-классов + 638 3D Art Design и 275 статей всего
 
 
 ### 🔗 Официальные ресурсы:
