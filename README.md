@@ -1,22 +1,17 @@
 <div align="center">
 
-  <img src="assets/brand/pacifica_emoji_hd_512x512.png" width="120" height="120" alt="Pacifica Logo" />
+<img src="assets/brand/pacifica_emoji_hd_512x512.png" width="120" height="120" alt="Pacifica Logo" />
 
-  <h1>The Pacifica Handbook</h1>
+# The Pacifica Handbook
 
-  <p><strong>The Canonical Reference Guide & 110-Article Visual Masterclass Library for Pacifica Protocol</strong></p>
+**The Canonical Reference Guide & 110-Article Visual Masterclass Library for Pacifica Protocol**
 
-  <p>
-
-    <a href="https://pacifica.fi"><img src="https://img.shields.io/badge/Pacifica-Mainnet_Live-00E599?style=for-the-badge&logo=solana&logoColor=black" alt="Pacifica" /></a>
-
-    <a href="https://docs.pacifica.fi"><img src="https://img.shields.io/badge/Docs-100%25_Verified-0066FF?style=for-the-badge" alt="Docs" /></a>
-
-    <a href="https://x.com/ETHassociation"><img src="https://img.shields.io/badge/Author-@ETHassociation-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-
-    <a href="README_RU.md"><img src="https://img.shields.io/badge/Language-Русский_Гайд-FFCC00?style=for-the-badge" alt="RU" /></a>
-
-  </p>
+<p align="center">
+<a href="https://pacifica.fi"><img src="https://img.shields.io/badge/Pacifica-Mainnet_Live-00E599?style=for-the-badge&logo=solana&logoColor=black" alt="Pacifica" /></a>
+<a href="https://docs.pacifica.fi"><img src="https://img.shields.io/badge/Docs-100%25_Verified-0066FF?style=for-the-badge" alt="Docs" /></a>
+<a href="https://x.com/ETHassociation"><img src="https://img.shields.io/badge/Author-@ETHassociation-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+<a href="README_RU.md"><img src="https://img.shields.io/badge/Language-Русский_Гайд-FFCC00?style=for-the-badge" alt="RU" /></a>
+</p>
 
 </div>
 
@@ -25,11 +20,8 @@
 ### 🌟 Key Ecosystem Metrics
 
 | Cumulative Perp Volume | Daily Trading Volume | Perpetual Markets | Leverage Limit | Backing Architecture |
-
 | :---: | :---: | :---: | :---: | :---: |
-
 | **$220B+** | **~$1,000,000,000** | **65+ Pairs** | **Up to 50x** | **Squads Multi-Sig & No VC** |
-
 
 ---
 
@@ -37,28 +29,20 @@
 
 Six months of relentless daily research, testing, and writing went into the project you are reading right now.
 
-
 When I first discovered **Pacifica** on Solana, what struck me was not just the sub-second speed or the unified spot-margin engine. It was something extraordinarily rare in the modern crypto landscape: **they are 100% self-funded**. No predatory venture capital funds dumping locked tokens into user orderbooks. Every single dollar of value, fee revenue, and protocol growth accrues directly to active traders, vault depositors, and community participants.
-
 
 Yet, cutting-edge financial engineering brings technical complexity. Many traders who opened the platform were bewildered by cross-margin mechanics, three-tier liquidations, hourly funding calculations, and user-deployed trading lakes. The official documentation provided pristine formal specifications, but traders needed real-world visual demonstrations — how indicators look on the live chart, how to size positions without risking ruin, and how to harness programmatic tools like the **Pacifica MCP Server** for autonomous AI trading.
 
-
 I made a personal commitment: to document every single corner of Pacifica with surgical precision and genuine care for fellow traders. The result is this dual-layer work:
 
-
 * **Part I: The 29-Chapter Canonical Reference Handbook** — reproducing every limit, formula, and contract spec from `docs.pacifica.fi`, accompanied by custom mint-green architectural diagrams.
-
 * **Part II: The 110 Community Masterclasses** — authored by me as **SKYFOR.PF** ([@ETHassociation](https://x.com/ETHassociation)), containing over 1,000 live annotated screenshots across indicators, chart patterns, risk models, trading psychology, and product mechanics.
 
-
 **Total volume:** Over **108,000 words** of battle-tested, verified knowledge. Not a single hallucinated figure. Built to empower traders and developers across the Solana universe.
-
 
 ---
 
 ## 📚 Table of Contents: The 29 Reference Chapters
-
 
 ### Part 1: Foundations
 
@@ -130,7 +114,6 @@ I made a personal commitment: to document every single corner of Pacifica with s
 
 Curated and published on X by **SKYFOR.PF** ([@ETHassociation](https://x.com/ETHassociation)). Click on any category below or browse individual masterclasses:
 
-
 ### 🔹 [Indicators & Quantitative Tools](articles/indicators/README.md) (37 Masterclasses)
 
 <details><summary><strong>Click to expand all 37 articles in Indicators & Quantitative Tools</strong></summary>
@@ -174,6 +157,7 @@ Curated and published on X by **SKYFOR.PF** ([@ETHassociation](https://x.com/ETH
 | 35 | [Money Flow Index (MFI) on Pacifica](articles/indicators/money-flow-index-mfi-on-pacifica.md) | 2026-06-22 | 7 | [X Thread ↗](https://x.com/ETHassociation/status/2069016924307042793) |
 | 36 | [Linear Regression Curve on Pacifica](articles/indicators/linear-regression-curve-on-pacifica.md) | 2026-06-22 | 10 | [X Thread ↗](https://x.com/ETHassociation/status/2069033773673370074) |
 | 37 | [Price Channel Indicator on Pacifica](articles/indicators/price-channel-indicator-on-pacifica.md) | 2026-06-23 | 7 | [X Thread ↗](https://x.com/ETHassociation/status/2069397427161894998) |
+
 </details>
 
 ### 🔹 [Chart Patterns & Price Action](articles/patterns/README.md) (9 Masterclasses)
@@ -191,6 +175,7 @@ Curated and published on X by **SKYFOR.PF** ([@ETHassociation](https://x.com/ETH
 | 7 | [Candlestick Confirmation Patterns on Pacifica](articles/patterns/candlestick-confirmation-patterns-on-pacifica.md) | 2026-07-01 | 5 | [X Thread ↗](https://x.com/ETHassociation/status/2072270159515906373) |
 | 8 | [Ascending and Descending Triangle Patterns on Pacifica](articles/patterns/ascending-and-descending-triangle-patterns-on-pacifica.md) | 2026-07-01 | 7 | [X Thread ↗](https://x.com/ETHassociation/status/2072275292026990685) |
 | 9 | [Cup and Handle Chart Pattern on Pacifica](articles/patterns/cup-and-handle-chart-pattern-on-pacifica.md) | 2026-07-09 | 5 | [X Thread ↗](https://x.com/ETHassociation/status/2075186583930552409) |
+
 </details>
 
 ### 🔹 [Risk Management & Mathematics](articles/risk-management/README.md) (16 Masterclasses)
@@ -215,6 +200,7 @@ Curated and published on X by **SKYFOR.PF** ([@ETHassociation](https://x.com/ETH
 | 14 | [Why Stop Loss Placement Is More Important Than Entry](articles/risk-management/why-stop-loss-placement-is-more-important-than-entry.md) | 2026-07-12 | 7 | [X Thread ↗](https://x.com/ETHassociation/status/2076248876084855001) |
 | 15 | [What Is Portfolio Heat and Why It Matters](articles/risk-management/what-is-portfolio-heat-and-why-it-matters.md) | 2026-07-12 | 7 | [X Thread ↗](https://x.com/ETHassociation/status/2076253996747047111) |
 | 16 | [What the Orderbook Really Shows You](articles/risk-management/what-the-orderbook-really-shows-you.md) | 2026-07-12 | 4 | [X Thread ↗](https://x.com/ETHassociation/status/2076258691280482378) |
+
 </details>
 
 ### 🔹 [Trading Psychology & Discipline](articles/mindset/README.md) (6 Masterclasses)
@@ -229,6 +215,7 @@ Curated and published on X by **SKYFOR.PF** ([@ETHassociation](https://x.com/ETH
 | 4 | [Maximizing Your Points: The Complete Guide to Pacifica's Points Program](articles/mindset/maximizing-your-points-the-complete-guide-to-pacifica-s-points-program.md) | 2026-06-04 | 1 | [X Thread ↗](https://x.com/ETHassociation/status/2062479315103531324) |
 | 5 | [Swim on Pacifica: Building the Next Generation Financial System](articles/mindset/swim-on-pacifica-building-the-next-generation-financial-system.md) | 2026-06-04 | 1 | [X Thread ↗](https://x.com/ETHassociation/status/2062487153687281789) |
 | 6 | [The Moment Everything Changed](articles/mindset/the-moment-everything-changed.md) | 2026-06-13 | 13 | [X Thread ↗](https://x.com/ETHassociation/status/2065751387913228472) |
+
 </details>
 
 ### 🔹 [Platform Mechanics & Deep Tech](articles/features/README.md) (42 Masterclasses)
@@ -279,8 +266,8 @@ Curated and published on X by **SKYFOR.PF** ([@ETHassociation](https://x.com/ETH
 | 40 | [Beyond the PnL: How to Build a Winning Trading Journal for Pacifica](articles/features/beyond-the-pnl-how-to-build-a-winning-trading-journal-for-pacifica.md) | unknown | 6 | [X Thread ↗](https://x.com/ETHassociation/status/2079870557051359246) |
 | 41 | [Building the Ultimate Pacifica Educational Empire: A Complete Report on Our 98-Article Journey](articles/features/building-the-ultimate-pacifica-educational-empire-a-complete-report-on-our-98-article-journey.md) | unknown | 3 | [X Thread ↗](https://x.com/ETHassociation/status/2079882683207798805) |
 | 42 | [Pacifica Update — Latest from the Community](articles/features/pacifica-update-latest-from-the-community.md) | unknown | 0 | [X Thread ↗](https://x.com/ETHassociation/status/2089317563113038054) |
-</details>
 
+</details>
 
 ---
 
@@ -288,35 +275,23 @@ Curated and published on X by **SKYFOR.PF** ([@ETHassociation](https://x.com/ETH
 
 Pacifica is the pioneer of autonomous trading infrastructure. Through its native **Model Context Protocol (MCP)** server, AI assistants (Claude, Antigravity, OpenAI Codex) can analyze market data and submit cryptographically signed Ed25519 orders programmatically:
 
-
 * Read the architecture: [Chapter 26: MCP Server for AI Agents](chapters/26-mcp-server.md)
-
 * Review cryptographic specs: [Chapter 25: Signing & Authentication](chapters/25-signing-auth.md)
-
 * Full API surface: [Chapter 24: REST & WebSocket API Overview](chapters/24-api-overview.md)
-
 
 ---
 
 ## 🌐 Official Verification & Resources
 
 * **Web Application:** [app.pacifica.fi](https://app.pacifica.fi)
-
 * **Official Documentation:** [docs.pacifica.fi](https://docs.pacifica.fi)
-
 * **Twitter / X:** [@pacifica_fi](https://x.com/pacifica_fi)
-
 * **Author & Community Ambassador:** **SKYFOR.PF** ([@ETHassociation](https://x.com/ETHassociation))
-
 * **Public Recognition:** Co-founder Constance Waing ([@ConstanceWaing](https://x.com/ConstanceWaing)) 💙
-
 
 ---
 
 <div align="center">
-
   <p><strong>Built for educational excellence · Dedicated to the Solana & Pacifica community</strong></p>
-
   <p><em>Zero VC noise. Pure execution. Self-funded freedom.</em></p>
-
 </div>
